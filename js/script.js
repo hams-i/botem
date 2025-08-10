@@ -3,23 +3,23 @@
 const campaignData = {
     "campaigns": [
         {
-            "title": "Otel & Restoran Özel Kampanyası",
-            "description": "Otel ve restoranlar için özel toptan fiyatlar! 10.000 TL üzeri siparişlerde istanbul içi ücretsiz teslimat hizmeti.",
+            "title": "Otel ve Restoranlara Özel",
+            "description": "Otel ve restoranlara özel toptan fiyatlar. 10.000 TL üzeri siparişlerde İstanbul içi ücretsiz teslimat.",
             "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
         },
         {
             "title": "Fabrika Yemekhane Paketleri",
-            "description": "Fabrika yemekhaneleri için özel paket fiyatlar. Büyük miktarlarda bakliyat ve pirinç tedariki.",
+            "description": "Fabrika yemekhaneleri için paket fiyatlar. Yüksek hacimli bakliyat, pirinç ve temel gıda tedariki.",
             "image": "https://images.unsplash.com/photo-1663841365334-06805f34af15?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-            "title": "Büyük Ofis Kantinleri",
-            "description": "Büyük ofis kantinleri için aylık tedarik anlaşmaları. Düzenli teslimat garantisi.",
+            "title": "Kurumsal Ofis Kantinleri",
+            "description": "Ofis kantinlerine aylık tedarik anlaşmaları ve düzenli teslimat. Eksiksiz ve zamanında hizmet.",
             "image": "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-            "title": "Toplu Beslenme Şirketleri",
-            "description": "Toplu beslenme şirketleri için özel fiyat listeleri. 7/24 sipariş alma hizmeti.",
+            "title": "Catering Şirketleri",
+            "description": "Catering şirketlerine özel fiyat listeleri ve esnek teslimat seçenekleri. 7/24 sipariş ve destek.",
             "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
         }
     ]
