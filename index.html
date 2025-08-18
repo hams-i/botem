@@ -28,7 +28,541 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    
+    <style>
+        /* Products Section Styles */
+        .products-section {
+            background: var(--primary-bg);
+            padding: 80px 0;
+            border-bottom: 1px solid var(--border-light);
+        }
+        
+        .products-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 40px;
+        }
+        
+        .categories-section {
+            margin: 60px 0 20px 0;
+        }
+        
+        .categories-container {
+            padding: 0 20px;
+        }
+        
+        .categorySwiper {
+            overflow: hidden;
+            padding: 0;
+        }
+
+        .categorySwiper .swiper-wrapper {
+            padding: 20px 0 0 0;
+        }
+        
+        .category-grid {
+            display: flex;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        
+        .categorySwiper .swiper-slide {
+            width: auto !important;
+            flex-shrink: 0;
+            margin: auto !important;
+        }
+        
+        /* Category Scrollbar Styles */
+        .categorySwiper .swiper-scrollbar {
+            position: relative;
+            top: 0;
+            bottom: auto;
+            left: 20px;
+            right: 20px;
+            width: calc(100% - 40px);
+            background: var(--border-light) !important;
+            height: 4px;
+            border-radius: 2px;
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .categorySwiper .swiper-scrollbar-drag {
+            border-radius: 2px;
+            transition: background 0.3s ease;
+            background: var(--dark-bg) !important;
+        }
+        
+        .categorySwiper .swiper-scrollbar-drag:hover {
+            background: var(--dark-bg);
+        }
+        
+        .category-card {
+            background: var(--primary-bg);
+            border: 1px solid var(--border-light);
+            padding: 20px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            min-width: 200px;
+            position: relative;
+            overflow: hidden;
+            flex-shrink: 0;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+        }
+        
+        .category-card:hover {
+            border-color: var(--text-primary);
+            transform: translateY(-2px);
+        }
+        
+        .category-card.active {
+            border-color: var(--text-primary);
+            background: var(--text-primary);
+            color: var(--text-white);
+        }
+        
+        .category-card.active .category-icon,
+        .category-card.active .category-name,
+        .category-card.active .category-description {
+            color: var(--text-white);
+        }
+        
+        .category-icon {
+            font-size: 24px;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            display: block;
+        }
+        
+        .category-name {
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .category-description {
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 300;
+        }
+        
+        .products-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .products-title {
+            font-size: clamp(28px, 4.2vw, 48px);
+            font-weight: 300;
+            color: var(--text-primary);
+            line-height: 1.2;
+        }
+        
+        .products-count {
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        
+        .product-card {
+            background: var(--primary-bg);
+            border: 1px solid var(--border-light);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .product-card:hover {
+            border-color: var(--text-primary);
+            transform: translateY(-4px);
+        }
+        
+        .product-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            background: #f5f5f5;
+        }
+        
+        .product-image-container {
+            width: 100%;
+            height: 300px;
+            background: #f5f5f5;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .product-image[src=""] {
+            display: none;
+        }
+        
+        .product-image-placeholder {
+            width: 100%;
+            height: 300px;
+            background: #f4f3f2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .product-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: var(--text-primary);
+            color: var(--text-white);
+            padding: 8px 16px;
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .product-content {
+            padding: 20px;
+        }
+        
+        .product-name {
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .product-description {
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        
+        .product-price {
+            font-size: 18px;
+            font-weight: 400;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+        
+        .original-price {
+            text-decoration: line-through;
+            color: var(--text-secondary);
+            margin-right: 8px;
+            font-size: 14px;
+        }
+        
+        .discount-price {
+            color: var(--danger-color);
+            font-weight: 600;
+        }
+        
+        .product-unit {
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-left: 4px;
+        }
+        
+        .product-unit {
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .product-stock {
+            color: var(--text-secondary);
+            font-size: 12px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .product-actions {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .btn-whatsapp {
+            background: var(--text-primary);
+            color: var(--text-white);
+            border: 1px solid var(--text-primary);
+            padding: 12px 20px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 400;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            justify-content: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            height: 48px;
+            width: 50%;
+        }
+        
+        .btn-whatsapp:hover {
+            background: var(--text-white);
+            color: var(--text-primary);
+        }
+        
+        .btn-cart {
+            background: var(--text-white);
+            color: var(--text-primary);
+            border: 1px solid var(--text-primary);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            font-size: 14px;
+            transition: all 0.3s ease;
+            border-radius: 0;
+            cursor: pointer;
+            height: 48px;
+            width: 50%;
+        }
+        
+        .btn-cart:hover {
+            background: var(--text-primary);
+            color: var(--text-white);
+        }
+        
+        .no-products {
+            text-align: center;
+            padding: 80px 40px;
+            color: var(--text-secondary);
+        }
+        
+        .no-products i {
+            font-size: 48px;
+            color: var(--border-light);
+            margin-bottom: 20px;
+        }
+        
+        .no-products h3 {
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+        
+        .no-products p {
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 80px 40px;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 2px solid var(--border-light);
+            border-top: 2px solid var(--text-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Custom scrollbar for categories */
+        .categories-container::-webkit-scrollbar {
+            height: 4px;
+        }
+        
+        .categories-container::-webkit-scrollbar-track {
+            background: var(--border-light);
+        }
+        
+        .categories-container::-webkit-scrollbar-thumb {
+            background: var(--text-primary);
+        }
+        
+        .categories-container::-webkit-scrollbar-thumb:hover {
+            background: var(--text-secondary);
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .products-container {
+                padding: 0 20px;
+            }
+            
+            .categories-container {
+                padding: 0px;
+            }
+            
+            .categorySwiper .swiper-wrapper {
+                padding: 15px 0 0 0;
+            }
+            
+            .categorySwiper .swiper-scrollbar {
+                left: 15px;
+                right: 15px;
+                width: calc(100% - 30px);
+                height: 3px;
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+            
+            .category-grid {
+                gap: 15px;
+            }
+            
+            .category-card {
+                min-width: 160px;
+                padding: 15px 20px;
+            }
+            
+            .category-icon {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+            
+            .category-name {
+                font-size: 12px;
+                margin-bottom: 6px;
+            }
+            
+            .category-description {
+                font-size: 10px;
+            }
+            
+            /* Products 2 yan yana */
+            .products-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+            
+            .products-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .product-actions {
+                flex-direction: row;
+                gap: 8px;
+            }
+            
+            .btn-whatsapp, .btn-cart {
+                width: 50%;
+                padding: 10px 12px;
+                font-size: 12px;
+            }
+            
+            .product-content {
+                padding: 15px;
+            }
+            
+            .product-name {
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            
+            .product-price {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+            
+            .product-image {
+                height: 160px;
+            }
+            
+            .product-image-container {
+                height: 160px;
+            }
+        }
+
+        /* Extra small screens - buttons vertical */
+        @media (max-width: 610px) {
+            .product-actions {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .btn-whatsapp, .btn-cart {
+                width: 100%;
+                padding: 12px;
+                font-size: 13px;
+            }
+            
+            .product-image {
+                height: 100px;
+            }
+        }
+
+        /* Campaign Features 2-2 Mobile */
+        @media (max-width: 767px) {
+            .campaign-features-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+            
+            .feature-item {
+                padding: 12px;
+            }
+            
+            .feature-item i {
+                font-size: 20px;
+                margin-bottom: 6px;
+            }
+            
+            .feature-item span {
+                font-size: 11px;
+            }
+        }
+
+        /* Contact Items 2-2 Mobile */
+        @media (max-width: 768px) {
+            .contact-items {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 30px 20px;
+                max-width: none;
+                margin: 0 auto 40px auto;
+                padding: 20px;
+            }
+        }
+    </style>
 
     <script type="application/ld+json">
         {
@@ -90,6 +624,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fw-bold text-uppercase px-3" href="#campaigns">Kampanyalar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold text-uppercase px-3" href="#products">Ürünler</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fw-bold text-uppercase px-3" href="#contact">İletişim</a>
@@ -237,103 +774,153 @@
                 <h2 class="main-section-heading">Aktif Kampanyalar</h2>
                 <p>Kurumsal müşterilerimize özel avantajlı kampanya fırsatları</p>
             </div>
-            <!-- Updated Campaign Dashboard Grid -->
+            <!-- Updated Campaign Dashboard Grid - 3 Kampanya -->
             <div class="dashboard_section campaign_dashboard_grid">
-                <!-- Large Horizontal Banner 1 - Restoran Kampanyası -->
+                <!-- 1. Oteller & Restoranlar (50%) -->
                 <div class="grid-item span-6 bg-green">
                     <div class="campaign-content">
                         <div class="campaign-header">
-                            <h3>Restoranlara Özel Bahar Kampanyası</h3>
-                            <p class="campaign-description">Bahar sezonuna özel restoran tedarik paketi. Restoranların yoğun sezon öncesi ihtiyaçları için özel olarak hazırlanmış kapsamlı tedarik paketi.</p>
+                            <h3>Oteller & Restoranlar Özel Paket</h3>
+                            <p class="campaign-description">5 yıldızlı oteller ve restoranlar için premium kalite garantisi. Turizm ve restoran sezonuna özel lüks hizmet paketi.</p>
                         </div>
-                        <a href="https://wa.me/905323663401?text=Merhaba%2C%20Restoranlara%20Özel%20Bahar%20Kampanyası%20hakkında%20bilgi%20almak%20istiyorum." class="whatsapp-campaign-btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        <a href="mailto:info@botemgida.com?subject=Oteller%20%26%20Restoranlar%20Özel%20Paket%20Hakkında%20Bilgi&body=Merhaba%2C%0A%0AOteller%20%26%20Restoranlar%20Özel%20Paket%20hakkında%20detaylı%20bilgi%20almak%20istiyorum.%0A%0ATeşekkürler." class="whatsapp-campaign-btn" target="_blank">
+                            <i class="fas fa-envelope"></i> Mail Gönder
                         </a>
                     </div>
                 </div>
 
-                <!-- Large Horizontal Banner 2 - Catering Kampanyası -->
+                <!-- 2. Catering Firmaları (50%) -->
                 <div class="grid-item span-6 bg-orange">
                     <div class="campaign-content">
                         <div class="campaign-header">
-                            <h3>Catering Şirketleri Premium Paket</h3>
+                            <h3>Catering Firmaları Premium Paket</h3>
                             <p class="campaign-description">Büyük organizasyonlar ve düğünler için özel tedarik paketi. Catering şirketlerinin yüksek hacimli siparişleri için premium hizmet garantisi.</p>
                         </div>
-                        <a href="https://wa.me/905323663401?text=Merhaba%2C%20Catering%20Şirketleri%20Premium%20Paket%20hakkında%20bilgi%20almak%20istiyorum." class="whatsapp-campaign-btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        <a href="mailto:info@botemgida.com?subject=Catering%20Firmaları%20Premium%20Paket%20Hakkında%20Bilgi&body=Merhaba%2C%0A%0ACatering%20Firmaları%20Premium%20Paket%20hakkında%20detaylı%20bilgi%20almak%20istiyorum.%0A%0ATeşekkürler." class="whatsapp-campaign-btn" target="_blank">
+                            <i class="fas fa-envelope"></i> Mail Gönder
                         </a>
                     </div>
                 </div>
 
-                <!-- Small Vertical Banner 1 - Fabrika Kampanyası -->
-                <div class="grid-item span-4 bg-blue">
-                    <div class="campaign-content vertical">
-                        <div class="campaign-header">
-                            <h4>Fabrika Yemekhane Mega Ekonomi</h4>
-                            <p class="campaign-description">Büyük fabrikaların yemekhaneleri için yıllık tedarik anlaşması. En uygun fiyatlarla toplu gıda tedariki.</p>
-                        </div>
-                        <a href="https://wa.me/905323663401?text=Merhaba%2C%20Fabrika%20Yemekhane%20Mega%20Ekonomi%20hakkında%20bilgi%20almak%20istiyorum." class="whatsapp-campaign-btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Small Vertical Banner 2 - Otel Kampanyası -->
-                <div class="grid-item span-4 bg-purple">
-                    <div class="campaign-content vertical">
-                        <div class="campaign-header">
-                            <h4>Otel ve Resort Lüks Tedarik</h4>
-                            <p class="campaign-description">5 yıldızlı oteller için premium kalite garantisi. Turizm sezonuna özel lüks hizmet paketi.</p>
-                        </div>
-                        <a href="https://wa.me/905323663401?text=Merhaba%2C%20Otel%20ve%20Resort%20Lüks%20Tedarik%20hakkında%20bilgi%20almak%20istiyorum." class="whatsapp-campaign-btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Small Vertical Banner 3 - Kurumsal Kampanyası -->
-                <div class="grid-item span-4 bg-teal">
-                    <div class="campaign-content vertical">
-                        <div class="campaign-header">
-                            <h4>Kurumsal Ofis Kantinleri</h4>
-                            <p class="campaign-description">Büyük şirketlerin ofis kantinleri için sağlıklı beslenme menüleri. Çalışan memnuniyeti odaklı tedarik.</p>
-                        </div>
-                        <a href="https://wa.me/905323663401?text=Merhaba%2C%20Kurumsal%20Ofis%20Kantinleri%20hakkında%20bilgi%20almak%20istiyorum." class="whatsapp-campaign-btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Full Width Banner - Okul Kantinleri Kampanyası -->
-                <div class="grid-item span-12 bg-red">
+                <!-- 3. Fabrikalar & İş Hanları (100%) -->
+                <div class="grid-item span-12 bg-blue">
                     <div class="campaign-content fullwidth">
                         <div class="campaign-header-full">
-                            <h2>Okul Kantinleri Özel Beslenme Paketi</h2>
-                            <p class="campaign-subtitle">İstanbul içi hızlı teslimat ile öğrenci beslenme çözümleri</p>
+                            <h2>Fabrikalar & İş Hanları Mega Ekonomi Paketi</h2>
+                            <p class="campaign-subtitle">Büyük fabrikaların yemekhaneleri ve iş hanları için en uygun fiyatlı toplu gıda tedariki</p>
                         </div>
                         <div class="campaign-details-full">
                             <div class="campaign-features-grid">
                                 <div class="feature-item">
-                                    <i class="fas fa-graduation-cap"></i>
-                                    <span>Okul Özel Ürünler</span>
+                                    <i class="fas fa-industry"></i>
+                                    <span>Fabrika Özel Paket</span>
                                 </div>
                                 <div class="feature-item">
-                                    <i class="fas fa-truck"></i>
-                                    <span>İstanbul İçi Teslimat</span>
+                                    <i class="fas fa-building"></i>
+                                    <span>İş Hanı Çözümleri</span>
                                 </div>
                                 <div class="feature-item">
-                                    <i class="fas fa-users"></i>
-                                    <span>Öğrenci Dostu Fiyat</span>
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Mega Ekonomi Fiyat</span>
                                 </div>
                                 <div class="feature-item">
-                                    <i class="fas fa-clock"></i>
-                                    <span>Hızlı Teslimat</span>
+                                    <i class="fas fa-handshake"></i>
+                                    <span>Yıllık Anlaşma</span>
                                 </div>
                             </div>
                         </div>
-                        <a href="https://wa.me/905323663401?text=Merhaba%2C%20Okul%20Kantinleri%20Özel%20Beslenme%20Paketi%20hakkında%20bilgi%20almak%20istiyorum." class="whatsapp-campaign-btn" target="_blank">
-                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        <a href="mailto:info@botemgida.com?subject=Fabrikalar%20%26%20İş%20Hanları%20Mega%20Ekonomi%20Paketi%20Hakkında%20Bilgi&body=Merhaba%2C%0A%0AFabrikalar%20%26%20İş%20Hanları%20Mega%20Ekonomi%20Paketi%20hakkında%20detaylı%20bilgi%20almak%20istiyorum.%0A%0ATeşekkürler." class="whatsapp-campaign-btn" target="_blank">
+                            <i class="fas fa-envelope"></i> Mail Gönder
                         </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="products-container">
+            <div class="section-header">
+                <h2 class="main-section-heading">Ürün Kataloğumuz</h2>
+                <p>3000+ ürün çeşidimizle kurumsal ihtiyaçlarınız için kaliteli ve uygun fiyatlı çözümler sunuyoruz</p>
+            </div>
+            
+            <!-- Categories Section -->
+            <div class="categories-section">
+                <div class="categories-container">
+                    <div class="swiper categorySwiper">
+                        <div class="swiper-wrapper category-grid" id="categoryGrid">
+                            <!-- Categories will be loaded here -->
+                        </div>
+                        <!-- Scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Products Grid -->
+            <div class="products-header">
+                <div>
+                    <h3 class="products-title" id="productsTitle">Tüm Ürünler</h3>
+                    <p class="products-count" id="productsCount">0 ürün bulundu</p>
+                </div>
+            </div>
+            
+            <div id="productsContainer">
+                <div class="loading">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Companies We Work With Section -->
+    <section class="companies-section">
+        <div class="companies-container">
+            <div class="section-header">
+                <h2 class="main-section-heading">Çalıştığımız Firmalar</h2>
+                <p>Güvenilir iş ortaklarımızla birlikte büyüyoruz</p>
+            </div>
+            
+            <div class="companies-slider-wrapper">
+                <div class="companies-slider" id="companiesSlider">
+                    <!-- Company logos will be added here -->
+                    <div class="company-logo">
+                        <div class="logo-placeholder">METRO</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">MIGROS</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">CARREFOUR</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">BIM</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">A101</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">ŞOK</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">REAL</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">MAKRO</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">TESCO</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">KIPA</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">FIVE</div>
+                    </div>
+                    <div class="company-logo">
+                        <div class="logo-placeholder">GIMA</div>
                     </div>
                 </div>
             </div>
@@ -576,11 +1163,8 @@
                 <h3>BOTEM GIDA</h3>
                 <p>2010 yılından bu yana Türkiye'nin önde gelen toptan kuru gıda tedarikçisi olarak hizmet vermektedir.
                     Otel, restoran, fabrika, hastane ve büyük kurumların güvenilir iş ortağıyız.</p>
-                <p>500'den fazla ürün çeşidimiz, ISO 22000 kalite sertifikamız ve 7/24 müşteri hizmetimizle sektörde
-                    fark yaratıyoruz. Müşteri memnuniyeti odaklı yaklaşımımız ve samimi hizmet anlayışımızla binlerce
-                    mutlu müşteriye ulaştık.</p>
-                <p>Hızlı teslimat, uygun fiyat ve kaliteli ürün üçlüsüyle işinizi kolaylaştırıyoruz. Çünkü biz sadece
-                    ürün satmıyoruz, güvenilir bir iş ortaklığı kuruyoruz.</p>
+                <p>3000'den fazla ürün çeşidimiz, müşteri memnuniyeti odaklı yaklaşımımız ve samimi hizmet anlayışımızla binlerce mutlu müşteriye ulaştık.</p>
+                <p>Hızlı teslimat, uygun fiyat ve kaliteli ürün üçlüsüyle işinizi kolaylaştırıyoruz. Çünkü biz sadece ürün satmıyoruz, güvenilir bir iş ortaklığı kuruyoruz.</p>
             </div>
 
             <div class="footer-section">
@@ -620,6 +1204,296 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
+    
+    <script>
+        // Products functionality
+        let allCategories = [];
+        let currentCategoryIndex = 0;
+
+        // Load products data
+        async function loadProducts() {
+            try {
+                const response = await fetch('products.json');
+                const data = await response.json();
+                allCategories = data;
+                
+                // Set first category as default
+                currentCategoryIndex = 0;
+                
+                renderCategories();
+                renderProducts();
+            } catch (error) {
+                console.error('Error loading products:', error);
+                document.getElementById('productsContainer').innerHTML = `
+                    <div class="no-products">
+                        <span class="material-icons" style="font-size: 48px; color: var(--border-light); margin-bottom: 20px;">error</span>
+                        <h3>Ürünler yüklenirken hata oluştu</h3>
+                        <p>Lütfen sayfayı yenileyin veya daha sonra tekrar deneyin.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Get category icon based on title
+        function getCategoryIcon(title) {
+            const iconMap = {
+                'Bakliyat': 'eco',
+                'Yağ Ürünleri': 'water_drop',
+                'Un & Nişasta': 'grass',
+                'Makarna': 'restaurant',
+                'Salça': 'inventory',
+                'Çay ve Kahve Ürünleri': 'coffee',
+                'Sirke ve Sos': 'liquor',
+                'Tuz': 'inventory_2',
+                'Bulyon ve Çeşni': 'science',
+                'Çorbalar & Puding': 'soup_kitchen',
+                'Baharat': 'local_fire_department',
+                'Konserve': 'inventory',
+                'Turşu': 'local_drink',
+                'Kahvaltılık & Şarküteri': 'egg',
+                'Krema': 'cloud',
+                'Ketçap & Mayonez': 'water_drop',
+                'Tatlı Ürünleri': 'cake'
+            };
+            return iconMap[title] || 'inventory_2';
+        }
+
+        // Render categories (initial load only)
+        function renderCategories() {
+            const categoryGrid = document.getElementById('categoryGrid');
+            categoryGrid.innerHTML = `
+                ${allCategories.map((category, index) => `
+                    <div class="swiper-slide">
+                        <div class="category-card ${currentCategoryIndex === index ? 'active' : ''}" onclick="filterByCategory(${index})">
+                            <span class="material-icons category-icon">${getCategoryIcon(category.title)}</span>
+                            <div class="category-name">${category.title}</div>
+                            <div class="category-description">${category.products.length} ürün</div>
+                        </div>
+                    </div>
+                `).join('')}
+            `;
+            
+            // Initialize category swiper only once
+            initCategorySwiper();
+        }
+        
+        // Update active category without re-rendering slider
+        function updateActiveCategory() {
+            const allCategoryCards = document.querySelectorAll('.category-card');
+            allCategoryCards.forEach((card, index) => {
+                if (index === currentCategoryIndex) {
+                    card.classList.add('active');
+                } else {
+                    card.classList.remove('active');
+                }
+            });
+        }
+
+        // Filter products by category
+        function filterByCategory(categoryIndex) {
+            currentCategoryIndex = categoryIndex;
+            updateActiveCategory(); // Sadece aktif kategoriyi güncelle, slider'ı yeniden render etme
+            renderProducts();
+        }
+
+        // Render products
+        function renderProducts() {
+            const container = document.getElementById('productsContainer');
+            const title = document.getElementById('productsTitle');
+            const count = document.getElementById('productsCount');
+            
+            if (allCategories.length === 0) {
+                container.innerHTML = `
+                    <div class="no-products">
+                        <span class="material-icons" style="font-size: 48px; color: var(--border-light); margin-bottom: 20px;">inventory_2</span>
+                        <h3>Ürün bulunamadı</h3>
+                        <p>Lütfen daha sonra tekrar deneyin.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            const currentCategory = allCategories[currentCategoryIndex];
+            const products = currentCategory.products;
+            
+            title.textContent = currentCategory.title;
+            count.textContent = `${products.length} ürün`;
+            
+            if (products.length === 0) {
+                container.innerHTML = `
+                    <div class="no-products">
+                        <span class="material-icons" style="font-size: 48px; color: var(--border-light); margin-bottom: 20px;">inventory_2</span>
+                        <h3>Bu kategoride ürün bulunamadı</h3>
+                        <p>Farklı bir kategori seçmeyi deneyin.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = `
+                <div class="products-grid">
+                    ${products.map(product => `
+                        <div class="product-card">
+                            <div class="product-image-container">
+                                ${product.discount ? '<div class="product-badge">İndirim</div>' : ''}
+                                ${product['product-image'] ? `<img src="${product['product-image']}" alt="${product['product-name']}" class="product-image">` : '<div class="product-image-placeholder"></div>'}
+                            </div>
+                            <div class="product-content">
+                                <h4 class="product-name">${product['product-name']}</h4>
+                                <div class="product-price">
+                                    ${product.discount ? `<span class="original-price">${product['product-price']}</span>` : ''}
+                                    ${product.discount ? `<span class="discount-price">${product['discount-price']} ₺</span>` : `<span>${product['product-price']}</span>`}
+                                    <span class="product-unit">${product['product-unit'] || ''}</span>
+                                </div>
+                                <div class="product-actions">
+                                    <a href="https://wa.me/905323663401?text=Merhaba, ${encodeURIComponent(product['product-name'])} ürünü hakkında bilgi almak istiyorum. Fiyat: ${product['product-price']} ${product['product-unit'] || ''}" 
+                                       class="btn-whatsapp" target="_blank">
+                                        <i class="fab fa-whatsapp" style="font-size: 16px;"></i>
+                                        WhatsApp
+                                    </a>
+                                    <button class="btn-cart" onclick="addToCart('${product['product-name']}', '${product['product-price']}', '${product['product-unit'] || ''}')">
+                                        <span class="material-icons" style="font-size: 16px;">shopping_cart</span>
+                                        <span style="margin-left: 4px; font-size: 12px;">Sepete Ekle</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // Add to cart function
+        function addToCart(productName, productPrice, productUnit) {
+            // Create cart item object
+            const cartItem = {
+                name: productName,
+                price: productPrice,
+                unit: productUnit,
+                quantity: 1
+            };
+            
+            // Get existing cart from localStorage
+            let cart = JSON.parse(localStorage.getItem('botemCart')) || [];
+            
+            // Check if product already exists in cart
+            const existingItemIndex = cart.findIndex(item => item.name === productName);
+            
+            if (existingItemIndex > -1) {
+                // Increase quantity if product already exists
+                cart[existingItemIndex].quantity += 1;
+            } else {
+                // Add new product to cart
+                cart.push(cartItem);
+            }
+            
+            // Save cart to localStorage
+            localStorage.setItem('botemCart', JSON.stringify(cart));
+            
+            // Show success message
+            showCartNotification(productName);
+        }
+        
+        // Show cart notification
+        function showCartNotification(productName) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: var(--text-primary);
+                color: var(--text-white);
+                padding: 16px 24px;
+                border-radius: 4px;
+                font-size: 14px;
+                font-weight: 400;
+                z-index: 9999;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                transform: translateX(100%);
+                transition: transform 0.3s ease;
+            `;
+            notification.textContent = `"${productName}" sepete eklendi`;
+            
+            // Add to page
+            document.body.appendChild(notification);
+            
+            // Animate in
+            setTimeout(() => {
+                notification.style.transform = 'translateX(0)';
+            }, 100);
+            
+            // Remove after 3 seconds
+            setTimeout(() => {
+                notification.style.transform = 'translateX(100%)';
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            }, 3000);
+        }
+
+        // Initialize category swiper
+        let categorySwiper;
+        
+        function initCategorySwiper() {
+            // Sadece bir kez başlat, yeniden başlatma
+            if (categorySwiper) {
+                return;
+            }
+            
+            // Initialize new swiper
+            categorySwiper = new Swiper('.categorySwiper', {
+                slidesPerView: 'auto',
+                spaceBetween: 20,
+                freeMode: {
+                    enabled: true,
+                    sticky: false,
+                    momentumBounce: false,
+                    momentumRatio: 0.6,
+                    momentumVelocityRatio: 0.6
+                },
+                grabCursor: true,
+                touchEventsTarget: 'wrapper', // Wrapper'ın her yerinden sürüklenebilir
+                centeredSlides: false,
+                loop: false,
+                rewind: false,
+                mousewheel: {
+                    enabled: true,
+                    forceToAxis: true,
+                    sensitivity: 1,
+                    releaseOnEdges: true
+                },
+                keyboard: {
+                    enabled: true,
+                    onlyInViewport: true
+                },
+                scrollbar: {
+                    el: '.categorySwiper .swiper-scrollbar',
+                    draggable: true,
+                    dragSize: 'auto',
+                    hide: false,
+                    snapOnRelease: true
+                },
+                touchRatio: 1,
+                touchAngle: 45,
+                simulateTouch: true,
+                allowTouchMove: true,
+                resistance: true,
+                resistanceRatio: 0.85,
+                watchSlidesProgress: true,
+                watchSlidesVisibility: true,
+                speed: 300,
+                updateOnWindowResize: true,
+                observer: true,
+                observeParents: true
+            });
+        }
+
+        // Initialize products when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProducts();
+        });
+    </script>
 </body>
 
 </html>

@@ -1,0 +1,1842 @@
+[
+    {
+        "title": "Bakliyat",
+        "products": [
+            {
+                "product-name": "Pirinç Yerli Pilavlık",
+                "product-image": "",
+                "product-price": "50 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pirinç Lüks Osmancık",
+                "product-image": "",
+                "product-price": "60 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pirinç Lüks (Sezerler-Birlik)",
+                "product-image": "",
+                "product-price": "65 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pirinç Lüks Baldo",
+                "product-image": "",
+                "product-price": "78 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pirinç Lüks Baldo (Zeki)",
+                "product-image": "",
+                "product-price": "85 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pilavlık Bulgur",
+                "product-image": "",
+                "product-price": "26 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pilavlık - Köftelik Bulgur Lüx (Duru)",
+                "product-image": "",
+                "product-price": "28 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pilavlık - Köftelik Bulgur Lüx (Özsarı)",
+                "product-image": "",
+                "product-price": "33 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Çiğ Köftelik Bulgur Esmer (Akın)",
+                "product-image": "",
+                "product-price": "28 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Buğday (Aşurelik)",
+                "product-image": "",
+                "product-price": "30 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kırmızı Mercimek (Yerli Özsarı Vs.)",
+                "product-image": "",
+                "product-price": "60 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kırmızı Mercimek (İthal)",
+                "product-image": "",
+                "product-price": "50 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nohut Beyaz İri Lüx Jumbo",
+                "product-image": "",
+                "product-price": "110 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nohut Sarı Yerli 8,5 mm",
+                "product-image": "",
+                "product-price": "60 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nohut Sarı Yerli 9 mm",
+                "product-image": "",
+                "product-price": "70 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kurufasulye Lüx Dermason Yerli 8,5 mm",
+                "product-image": "",
+                "product-price": "70 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kurufasulye Lüx Dermason Yerli 8 mm",
+                "product-image": "",
+                "product-price": "65 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Yeşil Mercimek",
+                "product-image": "",
+                "product-price": "68 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Barbunya Oval",
+                "product-image": "",
+                "product-price": "95 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Barbunya Lüx Kiraz",
+                "product-image": "",
+                "product-price": "100 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Yağ Ürünleri",
+        "products": [
+            {
+                "product-name": "Ayçiçek Yağı 18 Lt - Biryağ",
+                "product-image": "",
+                "product-price": "1325 ₺",
+                "product-unit": "TNK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ayçiçek Yağı 18 Lt - Yudum",
+                "product-image": "",
+                "product-price": "1375 ₺",
+                "product-unit": "TNK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Frita Kızartmalık Yağı 18 Lt",
+                "product-image": "",
+                "product-price": "1595 ₺",
+                "product-unit": "TNK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Yudum & Birma Kızartmalık Yağı 18 Lt",
+                "product-image": "",
+                "product-price": "1450 ₺",
+                "product-unit": "TNK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Birma Margarin 250 Gr*48 Adet",
+                "product-image": "",
+                "product-price": "950 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Rama Terem Blok Margarin 2.5 Kg * 6 AD",
+                "product-image": "",
+                "product-price": "1195 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Zeytinyağı Sızma 5 Lt Tnk (Yudum)",
+                "product-image": "",
+                "product-price": "1495 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Zeytinyağı Riviera 5 Lt Tnk (Komili)",
+                "product-image": "",
+                "product-price": "1350 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ayvalık Sızma Zeytinyağı 5 Lt Tnk (Güzelhisar)",
+                "product-image": "",
+                "product-price": "450 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Un & Nişasta",
+        "products": [
+            {
+                "product-name": "Ova Joker Un Kağıt 25 Kg",
+                "product-image": "",
+                "product-price": "575 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ova 1 Un Kağıt 25 Kg",
+                "product-image": "",
+                "product-price": "595 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ova Çiftgeyik Un 25 Kg",
+                "product-image": "",
+                "product-price": "650 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ova Tam Buğday 25 Kg",
+                "product-image": "",
+                "product-price": "650 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Hekimoğlu Pırlanta & Süper Lüx 25 Kg",
+                "product-image": "",
+                "product-price": "650 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Konya Güzeli Un 50 Kg",
+                "product-image": "",
+                "product-price": "995 ₺",
+                "product-unit": "ÇV",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Buğday Unu Sarı Un 25 Kg",
+                "product-image": "",
+                "product-price": "525 ₺",
+                "product-unit": "ÇV",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Razmol (Kepek)",
+                "product-image": "",
+                "product-price": "595 ₺",
+                "product-unit": "ÇV",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Eriş Un 1 Kg * 10 Ad",
+                "product-image": "",
+                "product-price": "265 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Mısır Nişasta 25 Kg",
+                "product-image": "",
+                "product-price": "595 ₺",
+                "product-unit": "ÇV",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Makarna",
+        "products": [
+            {
+                "product-name": "Filiz Makarna Çeşitleri 500 gr x 20 Adet",
+                "product-image": "",
+                "product-price": "400 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Filiz & N.Ankara Makarna Çeşitleri 5 Kg",
+                "product-image": "",
+                "product-price": "195 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Barilla Makarna (Penne & Spagetti) 500 Gr",
+                "product-image": "",
+                "product-price": "38 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Barilla Tortellini 250 Gr x 10 Adet",
+                "product-image": "",
+                "product-price": "120 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Barilla Fettucine 500 Gr x 12 Adet",
+                "product-image": "",
+                "product-price": "120 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Barilla Tagliatelle 500 Gr x 12 Adet",
+                "product-image": "",
+                "product-price": "120 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Golda & Mutlu & Tat Makarna Çeşitleri 5 Kg",
+                "product-image": "",
+                "product-price": "165 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Salça",
+        "products": [
+            {
+                "product-name": "Tat Domates Salçası 5/1",
+                "product-image": "",
+                "product-price": "220 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tamek Domates Salçası 5/1",
+                "product-image": "",
+                "product-price": "200 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tukaş Domates Salçası 5/1",
+                "product-image": "",
+                "product-price": "190 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "İpek Domates Salça 5/1 (%28-30 Brix)",
+                "product-image": "",
+                "product-price": "180 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Öncü Domates Salçası 5/1 PET",
+                "product-image": "",
+                "product-price": "265 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Öncü Biber Salça 5/1 - PET (Acı / Tatlı)",
+                "product-image": "",
+                "product-price": "625 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Burcu & İpek Biber Salçası 5/1 PET (Acı-Tatlı)",
+                "product-image": "",
+                "product-price": "495 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Çay ve Kahve Ürünleri",
+        "products": [
+            {
+                "product-name": "Sargılı Şeker 5 Kg Pekşeker (Çaykur)",
+                "product-image": "",
+                "product-price": "295 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Toz Şeker 50 Kg",
+                "product-image": "",
+                "product-price": "40 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Of Çay Tiryaki 1 Kg & Doğuş Çay",
+                "product-image": "",
+                "product-price": "165 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Karali Çay Tiryaki 5 Kg",
+                "product-image": "",
+                "product-price": "795 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Karali Çay Demliğim Beklediği 5 Kg",
+                "product-image": "",
+                "product-price": "950 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Çaykur Çaycı 1 Kg * 10 Adet",
+                "product-image": "",
+                "product-price": "1950 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Çaykur Rize Turist Çay 1 Kg * 10 Adet",
+                "product-image": "",
+                "product-price": "2150 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Çaykur Tiryaki 1 Kg * 10 Adet",
+                "product-image": "",
+                "product-price": "2095 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ofçay Jumbo Demlik 40 Gr * 25 Ad",
+                "product-image": "",
+                "product-price": "245 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Doğuş Rize Jumbo Demlik (40 Gr) 2 Kg",
+                "product-image": "",
+                "product-price": "475 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Doğuş Bardak Çay 2 Gr. * 1000 Ad",
+                "product-image": "",
+                "product-price": "995 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nescafe Gold 200 Gr",
+                "product-image": "",
+                "product-price": "295 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Cafe Mate 500 Gr",
+                "product-image": "",
+                "product-price": "175 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Mehmet Efendi Türk Kahvesi 100 Gr * 25 Adet",
+                "product-image": "",
+                "product-price": "1595 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Sirke ve Sos",
+        "products": [
+            {
+                "product-name": "Limon Sosu 0,5 Lt & 1 Lt",
+                "product-image": "",
+                "product-price": "525 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Sirke Sosu 0,5 Lt & 1 Lt",
+                "product-image": "",
+                "product-price": "235 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Vefa Limon Sosu 0,5 Lt. *24 Adet",
+                "product-image": "",
+                "product-price": "950 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Vefa Sirke 0,5 Lt *24 Adet",
+                "product-image": "",
+                "product-price": "950 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Vefa Sirke 1 Lt*12 Adet",
+                "product-image": "",
+                "product-price": "895 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Vefa Limon Sosu 1 Lt*12 Adet",
+                "product-image": "",
+                "product-price": "895 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Vefa Sirke 5 Lt",
+                "product-image": "",
+                "product-price": "225 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nar Ekşisi %100 1/1 * 12 Adet",
+                "product-image": "",
+                "product-price": "1450 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nar Ekşili Sos Bürücek 1/1 * 12 Adet",
+                "product-image": "",
+                "product-price": "595 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Tuz",
+        "products": [
+            {
+                "product-name": "Salina Tuz 750 gr * 30 Adet",
+                "product-image": "",
+                "product-price": "275 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Billur Tuz 750 gr * 30 Adet",
+                "product-image": "",
+                "product-price": "525 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Günaydın Yemeklik Tuz 1.5 Kg*10 Adet",
+                "product-image": "",
+                "product-price": "145 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Bulyon ve Çeşni",
+        "products": [
+            {
+                "product-name": "Bizim Mutfak 5 Kg Bulyon Et - Tavuk",
+                "product-image": "",
+                "product-price": "895 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Knor Bulyon 5 Kg Et - Tavuk",
+                "product-image": "",
+                "product-price": "1350 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Lezzetçi Bulyon 5 Kg Et-Tavuk",
+                "product-image": "",
+                "product-price": "495 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Lezzetçi Sebzeli Çeşni 5 Kg",
+                "product-image": "",
+                "product-price": "495 ₺",
+                "product-unit": "PK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Bizim Mutfak 5 Kg Sebzeli Çeşni",
+                "product-image": "",
+                "product-price": "995 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Knorr 5 Kg Sebzeli Çeşni",
+                "product-image": "",
+                "product-price": "1595 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Çorbalar & Puding",
+        "products": [
+            {
+                "product-name": "Kent Mutfak Kremalı Sebze 3 Kg",
+                "product-image": "",
+                "product-price": "550 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kent Kr. Mantar & Kr. Tavuk 3 Kg",
+                "product-image": "",
+                "product-price": "595 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kent Tarhana Çorba 3 Kg",
+                "product-image": "",
+                "product-price": "450 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Dr.Oetker 3 Kg - Puding Çeşitleri 3 Kg",
+                "product-image": "",
+                "product-price": "575 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Baharat",
+        "products": [
+            {
+                "product-name": "Toz Biber Tatlı & Acı",
+                "product-image": "",
+                "product-price": "175 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Akbiber",
+                "product-image": "",
+                "product-price": "695 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Çörek Otu",
+                "product-image": "",
+                "product-price": "215 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Susam",
+                "product-image": "",
+                "product-price": "175 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Hindistan Cevizi 500 Gr",
+                "product-image": "",
+                "product-price": "140 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ülker Kakao 1 Kg",
+                "product-image": "",
+                "product-price": "625 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pulbiber Çavuşoğlu 10 Kg (Orjinal)",
+                "product-image": "",
+                "product-price": "155 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pul Biber Yağlı & İsot",
+                "product-image": "",
+                "product-price": "175 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kuş Üzümü",
+                "product-image": "",
+                "product-price": "495 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Karabiber Toz",
+                "product-image": "",
+                "product-price": "325 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kekik 250 Gr",
+                "product-image": "",
+                "product-price": "65 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kimyon",
+                "product-image": "",
+                "product-price": "175 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nane 400 Gr",
+                "product-image": "",
+                "product-price": "95 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Yenibahar",
+                "product-image": "",
+                "product-price": "650 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Dolmalık Fıstık (Yer Fıstığı)",
+                "product-image": "",
+                "product-price": "250 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Köri",
+                "product-image": "",
+                "product-price": "135 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kajun Baharatı",
+                "product-image": "",
+                "product-price": "275 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Fajita Baharatı",
+                "product-image": "",
+                "product-price": "275 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Karbonat",
+                "product-image": "",
+                "product-price": "45 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tarçın Toz",
+                "product-image": "",
+                "product-price": "225 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Buğday Nişasta",
+                "product-image": "",
+                "product-price": "75 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Mısır Nişasta Paket",
+                "product-image": "",
+                "product-price": "50 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kabartma Tozu",
+                "product-image": "",
+                "product-price": "85 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Şekerli Vanilin",
+                "product-image": "",
+                "product-price": "115 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pudra Şekeri",
+                "product-image": "",
+                "product-price": "80 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Limon Tuzu",
+                "product-image": "",
+                "product-price": "115 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Sumak",
+                "product-image": "",
+                "product-price": "240 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Galete Unu",
+                "product-image": "",
+                "product-price": "42 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Mısır Unu",
+                "product-image": "",
+                "product-price": "48 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Zerdeçal",
+                "product-image": "",
+                "product-price": "245 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Zencefil Toz",
+                "product-image": "",
+                "product-price": "350 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Stick Baharat(Pul B.-Kara B.-Nane-Kekik)1000Ad",
+                "product-image": "",
+                "product-price": "295 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Konserve",
+        "products": [
+            {
+                "product-name": "Mısır Konserve 3/1 - Tukaş",
+                "product-image": "",
+                "product-price": "195 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Mantar Konserve 3/1 Dilimli",
+                "product-image": "",
+                "product-price": "240 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tat Doğranmış Domates 5/1",
+                "product-image": "",
+                "product-price": "185 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Demko Doğranmış Domates 5/1",
+                "product-image": "",
+                "product-price": "215 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Dardanel Ton 80 gr * 24 Adet",
+                "product-image": "",
+                "product-price": "42 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Dardanel Ton 160 Gr * 24 Adet",
+                "product-image": "",
+                "product-price": "65 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tat & Tamek Bezelye 5/1 * 6 Adet",
+                "product-image": "",
+                "product-price": "175 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Burcu Bezelye 5/1",
+                "product-image": "",
+                "product-price": "150 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tukaş & Burcu Garnitür 5/1",
+                "product-image": "",
+                "product-price": "175 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Turşu",
+        "products": [
+            {
+                "product-name": "Aysan Yakan & Biberiye 5 Kg",
+                "product-image": "",
+                "product-price": "550 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Aysan Türlü Turşu 10 Kg",
+                "product-image": "",
+                "product-price": "475 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Aysan Salatalık Turşu No:3 10 Kg",
+                "product-image": "",
+                "product-price": "475 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Kahvaltılık & Şarküteri",
+        "products": [
+            {
+                "product-name": "Zeytin Siyah Gemlik 10 Kg - (321-350)",
+                "product-image": "",
+                "product-price": "1450 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Zeytin Siyah Gemlik 10 Kg - (291-320)",
+                "product-image": "",
+                "product-price": "1850 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Zeytil Yeşil Çizik 10 Kg",
+                "product-image": "",
+                "product-price": "2250 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Zeytin Dilimli 8 Kg (Siyah & Yeşil)",
+                "product-image": "",
+                "product-price": "1395 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Beyaz Peynir 17 Kg Tnk KUZUCU",
+                "product-image": "",
+                "product-price": "2950 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Beyaz Peynir 18 Kg Tnk Klasik Yüksek Kaynama",
+                "product-image": "",
+                "product-price": "3750 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Beyaz Peynir 18 Kg Tnk Klasik",
+                "product-image": "",
+                "product-price": "4750 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Beyaz Peynir 5 Kg Y.Yağlı KUZUCU",
+                "product-image": "",
+                "product-price": "950 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Beyaz Peynir 5 Kg T.Yağlı Klasik",
+                "product-image": "",
+                "product-price": "1350 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Beyaz Peynir Vakumlu Klasik Sert T.Yağlı",
+                "product-image": "",
+                "product-price": "275 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pınar Tereyağ 10 Gr * 192 Ad",
+                "product-image": "",
+                "product-price": "1075 ₺",
+                "product-unit": "PK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pınar Beyaz Krem 20 Gr * 120 Ad",
+                "product-image": "",
+                "product-price": "995 ₺",
+                "product-unit": "PK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Bal 15 Gr * 100 Ad",
+                "product-image": "",
+                "product-price": "325 ₺",
+                "product-unit": "PK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Reçel 15 Gr * 100 Ad",
+                "product-image": "",
+                "product-price": "150 ₺",
+                "product-unit": "PK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Fındık Kreması 15 Gr * 100 Ad",
+                "product-image": "",
+                "product-price": "325 ₺",
+                "product-unit": "PK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Tahin-Pekmez 15 Gr * 100 Ad",
+                "product-image": "",
+                "product-price": "325 ₺",
+                "product-unit": "PK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Helva 40 Gr * 96 Ad",
+                "product-image": "",
+                "product-price": "975 ₺",
+                "product-unit": "PK",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Helva 500 Gr * 12 Ad",
+                "product-image": "",
+                "product-price": "975 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Bal 5 Kg",
+                "product-image": "",
+                "product-price": "1150 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Reçel 5 Kg Çeşit",
+                "product-image": "",
+                "product-price": "495 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Seyidoğlu Çokokrem 5 Kg",
+                "product-image": "",
+                "product-price": "550 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ayvansaray Tahin 5/1",
+                "product-image": "",
+                "product-price": "850 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ayvansaray Üzüm Pekmezi 5/1",
+                "product-image": "",
+                "product-price": "550 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Pınar Süt & İçim 1/1 Lt*12 Adet - T.Yağlı",
+                "product-image": "",
+                "product-price": "475 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Süt 1/1 Lt*12 Adet - Y.Yağlı",
+                "product-image": "",
+                "product-price": "345 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kaşar Peynir Çobanyıldızı (Çobanoğlu)",
+                "product-image": "",
+                "product-price": "255 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kaşar Peynir Çobanoğlu",
+                "product-image": "",
+                "product-price": "295 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tereyağ 1 Kg Çobanoğlu",
+                "product-image": "",
+                "product-price": "350 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tereyağ 1 Kg Pınar & Kebir",
+                "product-image": "",
+                "product-price": "475 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Kavurma Blok",
+                "product-image": "",
+                "product-price": "1075 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Kavurma Blok",
+                "product-image": "",
+                "product-price": "1250 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Kavurma 100 Gr. - Dana",
+                "product-image": "",
+                "product-price": "135 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Baton Sucuk 300 Gr. - Dana",
+                "product-image": "",
+                "product-price": "235 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Dilim Sucuk 250 Gr. - Dana",
+                "product-image": "",
+                "product-price": "195 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Macar Salam 1250 Gr. - Dana",
+                "product-image": "",
+                "product-price": "850 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Macar Salam Dilimli 300 Gr. - Dana",
+                "product-image": "",
+                "product-price": "200 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Dilimli Jambon 300 Gr. - Dana",
+                "product-image": "",
+                "product-price": "250 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Jambon 2000 Gr. - Dana",
+                "product-image": "",
+                "product-price": "795 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Jambon 2000 Gr. - Hindi",
+                "product-image": "",
+                "product-price": "395 ₺",
+                "product-unit": "KG",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Kokteyl & Uzun Sosis 250 Gr. - Dana",
+                "product-image": "",
+                "product-price": "135 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Pastırma Dilimli 100 Gr. Çemenli",
+                "product-image": "",
+                "product-price": "225 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Danet Pastırma Dilimli 70 Gr. Çemensiz",
+                "product-image": "",
+                "product-price": "175 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Yumurta 30 Adet",
+                "product-image": "",
+                "product-price": "0 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Krema",
+        "products": [
+            {
+                "product-name": "Tikveşli Krema 1000 Ml",
+                "product-image": "",
+                "product-price": "240 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Rama Krema 1000 Ml",
+                "product-image": "",
+                "product-price": "190 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Rama Krema Sıcak Uygulama 1000 Ml",
+                "product-image": "",
+                "product-price": "150 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Hopla Krema 1000 Ml",
+                "product-image": "",
+                "product-price": "135 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Ketçap & Mayonez",
+        "products": [
+            {
+                "product-name": "Tat Ketçap 630 Gr. * 12 Adet",
+                "product-image": "",
+                "product-price": "525 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tat Mayonez 575 Gr. * 12 Adet",
+                "product-image": "",
+                "product-price": "595 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tat Ketçap 9/1 Kova",
+                "product-image": "",
+                "product-price": "350 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tat Mayonez 8/1 Kova",
+                "product-image": "",
+                "product-price": "350 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tat Ketçap 500 Adet P.P",
+                "product-image": "",
+                "product-price": "365 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tat Mayonez 500 Adet P.P",
+                "product-image": "",
+                "product-price": "365 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tukaş Ketçap 9/1 Kova",
+                "product-image": "",
+                "product-price": "275 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tukaş Mayonez 8/1 Kova",
+                "product-image": "",
+                "product-price": "295 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    },
+    {
+        "title": "Tatlı Ürünleri",
+        "products": [
+            {
+                "product-name": "Revani Büyük 1000 Gr.",
+                "product-image": "",
+                "product-price": "225 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nevzat Lüks Kemalpaşa 150 Gr * 25 Adet",
+                "product-image": "",
+                "product-price": "90 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nevzat Ekstra Kemalpaşa 150 Gr * 25 Adet",
+                "product-image": "",
+                "product-price": "75 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nevzat Peynir Tatlısı 160 Gr * 25 Adet",
+                "product-image": "",
+                "product-price": "90 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Nevzat Şekerpare 250 Gr * 30 Adet",
+                "product-image": "",
+                "product-price": "40 ₺",
+                "product-unit": "AD",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Tat Vakumlu İrmik No:3 25 Kg",
+                "product-image": "",
+                "product-price": "750 ₺",
+                "product-unit": "ÇV",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            },
+            {
+                "product-name": "Ankara & Filiz İrmik 500 Gr * 20 Ad",
+                "product-image": "",
+                "product-price": "595 ₺",
+                "product-unit": "KL",
+                "discount": false,
+                "discount-rate": "0",
+                "discount-price": "0"
+            }
+        ]
+    }
+]

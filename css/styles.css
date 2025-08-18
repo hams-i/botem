@@ -153,6 +153,13 @@ h2 {
     padding: 0 40px;
 }
 
+/* Mobile Service Content Padding */
+@media (max-width: 768px) {
+    .service-content {
+        padding: 0 10px;
+    }
+}
+
 .service-hero {
     text-align: center;
     margin-bottom: 80px;
@@ -181,6 +188,18 @@ h2 {
     gap: 80px;
     margin-bottom: 80px;
     flex-wrap: wrap;
+}
+
+/* Service Stats 2-2 Mobile */
+@media (max-width: 768px) {
+    .service-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 40px 20px;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
 }
 
 .stat-item {
@@ -478,6 +497,17 @@ h2 {
     letter-spacing: 2px;
 }
 
+/* Slider Content Responsive */
+@media (max-width: 768px) {
+    .swiper-slide-content h2 {
+        font-size: 24px;
+    }
+    
+    .swiper-slide-content p {
+        font-size: 14px;
+    }
+}
+
 .swiper-slide-content p {
     font-size: 16px;
     font-weight: 300;
@@ -535,10 +565,17 @@ h2 {
     background: var(--text-white) !important;
 }
 
-/* Campaigns Section - Zara Style */
+/* Campaigns Section */
 .campaigns-section {
     padding: 80px 40px;
     background: var(--primary-bg);
+}
+
+/* Campaigns Mobile */
+@media (max-width: 768px) {
+    .campaigns-section {
+        padding: 60px 15px;
+    }
 }
 
 .campaigns-container {
@@ -665,9 +702,23 @@ h2 {
     position: relative;
 }
 
+/* Company History Mobile */
+@media (max-width: 768px) {
+    .company-history-section {
+        padding: 60px 10px 0 10px;
+    }
+}
+
 .company-history-container {
     max-width: 1400px;
     margin: 0 auto;
+}
+
+/* Company History Container Mobile */
+@media (max-width: 768px) {
+    .company-history-container {
+        padding: 0 5px;
+    }
 }
 
 .history-intro {
@@ -924,6 +975,17 @@ h2 {
     padding: 60px 0;
 }
 
+/* Values Section Mobile */
+@media (max-width: 768px) {
+    .values-section {
+        padding: 40px 0;
+    }
+    
+    .values-container {
+        padding: 0 10px;
+    }
+}
+
 .values-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -950,21 +1012,28 @@ h2 {
     gap: 30px;
 }
 
+/* Values Grid Mobile */
+@media (max-width: 768px) {
+    .values-grid {
+        gap: 20px;
+    }
+}
+
 /* 550px'den küçük ekranlarda sol padding'i kaldır */
 @media (max-width: 550px) {
     .values-container {
-        padding: 0;
+        padding: 0 5px;
     }
     
     .values-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 15px;
         padding-left: 0;
     }
     
     .value-card {
         margin-left: 0;
-        padding-left: 20px;
+        padding: 15px 10px;
     }
 }
 
@@ -982,6 +1051,13 @@ h2 {
     border-radius: 0;
     border-top: 4px solid var(--dark-bg);
     transition: all 0.3s ease;
+}
+
+/* Value Card Mobile */
+@media (max-width: 768px) {
+    .value-card {
+        padding: 20px 15px;
+    }
 }
 
 .value-card:hover {
@@ -1032,6 +1108,13 @@ h2 {
 .reviews-section {
     padding: 80px 40px;
     background: var(--accent-bg);
+}
+
+/* Reviews Section Mobile */
+@media (max-width: 768px) {
+    .reviews-section {
+        padding: 50px 15px;
+    }
 }
 
 .reviews-container {
@@ -1155,6 +1238,13 @@ h2 {
     text-align: center;
 }
 
+/* CTA Section Mobile */
+@media (max-width: 768px) {
+    .cta-section {
+        padding: 60px 15px;
+    }
+}
+
 .cta-content h2 {
     font-size: 32px;
     margin-bottom: 20px;
@@ -1180,6 +1270,21 @@ h2 {
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+/* CTA Buttons Mobile */
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    
+    .cta-btn {
+        width: 80%;
+        max-width: 300px;
+        justify-content: center;
+    }
 }
 
 .cta-btn {
@@ -1219,6 +1324,18 @@ h2 {
     padding: 60px 20px;
 }
 
+/* Contact Location Mobile */
+@media (max-width: 768px) {
+    .contact-location-section {
+        padding: 50px 5px;
+    }
+    
+    .contact-location-section .section-header {
+        margin-bottom: 30px;
+        padding: 0 10px;
+    }
+}
+
 .contact-location-container {
     max-width: 1400px;
     margin: 0 auto;
@@ -1236,6 +1353,42 @@ h2 {
     max-width: 1200px;
     margin: 0 auto 60px auto;
     padding: 40px 20px;
+}
+
+/* Contact Items 2-2 Mobile */
+@media (max-width: 768px) {
+    .contact-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 15px 10px;
+        max-width: 100%;
+        margin: 0 auto 20px auto;
+        padding: 5px;
+        overflow: hidden;
+    }
+    
+    .contact-location-section .contact-item {
+        min-width: auto;
+        flex-direction: column;
+        text-align: left;
+        gap: 8px;
+        align-items: flex-start;
+    }
+    
+    .contact-location-section .contact-item i {
+        font-size: 20px;
+        margin-bottom: 5px;
+        align-self: flex-start;
+    }
+    
+    .contact-location-section .contact-item strong {
+        font-size: 13px;
+    }
+    
+    .contact-location-section .contact-item span {
+        font-size: 12px;
+    }
 }
 
 .contact-location-section .contact-item {
@@ -1304,6 +1457,18 @@ h2 {
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+/* Location Card Mobile */
+@media (max-width: 768px) {
+    .location-card h3 {
+        padding: 15px 10px 10px 10px;
+        font-size: 18px;
+    }
+    
+    .location-info {
+        padding: 0 10px 15px 10px;
+    }
 }
 
 .location-info {
@@ -1739,7 +1904,7 @@ h2 {
 .dashboard_section {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: 300px;
+    grid-auto-rows: 250px;
     gap: 25px;
     width: 100%;
     max-width: 1600px;
@@ -1747,11 +1912,311 @@ h2 {
     padding: 0;
 }
 
+/* Dashboard Mobile */
+@media (max-width: 768px) {
+    .dashboard_section {
+        grid-auto-rows: 200px;
+        gap: 15px;
+    }
+}
+
 .dashboard_section .grid-item {
     position: relative;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.dashboard_section .grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Campaign Content Styling */
+.campaign-content {
+    padding: 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+}
+
+.campaign-content.vertical {
+    padding: 20px;
+}
+
+.campaign-content.fullwidth {
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Campaign Header */
+.campaign-header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.campaign-header-full {
+    flex: 1;
+}
+
+.campaign-header .campaign-description {
+    font-size: 13px;
+    opacity: 0.9;
+    margin: 12px 0 0 0;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+
+
+.campaign-header h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Campaign Headers Mobile */
+@media (max-width: 768px) {
+    .campaign-header h3 {
+        font-size: 22px;
+    }
+    
+    .campaign-header h4 {
+        font-size: 20px;
+    }
+    
+    .campaign-header-full h2 {
+        font-size: 24px;
+    }
+    
+    .campaign-description {
+        font-size: 14px !important;
+        line-height: 1.4 !important;
+        margin: 10px 0 0 0 !important;
+    }
+    
+    .campaign-subtitle {
+        font-size: 16px;
+    }
+}
+
+.campaign-header h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.campaign-header-full h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+    line-height: 1.2;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.campaign-subtitle {
+    font-size: 16px;
+    opacity: 0.9;
+    margin: 0;
+    font-weight: 300;
+}
+
+
+
+/* Campaign Details Full Width */
+.campaign-details-full {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.campaign-features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+.feature-item i {
+    font-size: 24px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.feature-item span {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Campaign Footer */
+.campaign-footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.campaign-footer-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Campaign Buttons */
+.campaign-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.campaign-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-1px);
+}
+
+.campaign-btn-small {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.campaign-btn-small:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    text-decoration: none;
+}
+
+.campaign-actions {
+    display: flex;
+    gap: 15px;
+}
+
+.campaign-btn-primary {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.campaign-btn-primary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.campaign-btn-secondary {
+    background: transparent;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.campaign-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-decoration: none;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* WhatsApp Campaign Button */
+.whatsapp-campaign-btn {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 10;
+}
+
+.whatsapp-campaign-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.whatsapp-campaign-btn:active {
+    transform: translateY(-1px);
+}
+
+.whatsapp-campaign-btn i {
+    font-size: 16px;
 }
 
 /* Column spans */
@@ -1795,7 +2260,7 @@ h2 {
 /* Large Desktop (1400px+) */
 @media (min-width: 1400px) {
     .dashboard_section {
-        grid-auto-rows: 300px;
+        grid-auto-rows: 250px;
         gap: 30px;
     }
 }
@@ -1803,7 +2268,7 @@ h2 {
 /* Desktop (1200px - 1399px) */
 @media (min-width: 1200px) and (max-width: 1399px) {
     .dashboard_section {
-        grid-auto-rows: 280px;
+        grid-auto-rows: 230px;
         gap: 28px;
     }
 }
@@ -1811,7 +2276,7 @@ h2 {
 /* Medium Desktop (1024px - 1199px) */
 @media (min-width: 1024px) and (max-width: 1199px) {
     .dashboard_section {
-        grid-auto-rows: 280px;
+        grid-auto-rows: 230px;
         gap: 25px;
     }
 }
@@ -1820,7 +2285,7 @@ h2 {
 @media (min-width: 768px) and (max-width: 1023px) {
     .dashboard_section {
         grid-template-columns: repeat(6, 1fr);
-        grid-auto-rows: 280px;
+        grid-auto-rows: 230px;
         gap: 20px;
     }
 
@@ -1841,7 +2306,7 @@ h2 {
 @media (min-width: 600px) and (max-width: 767px) {
     .dashboard_section {
         grid-template-columns: repeat(4, 1fr);
-        grid-auto-rows: 250px;
+        grid-auto-rows: 200px;
         gap: 18px;
     }
 
@@ -1862,7 +2327,7 @@ h2 {
 @media (min-width: 480px) and (max-width: 599px) {
     .dashboard_section {
         grid-template-columns: repeat(2, 1fr);
-        grid-auto-rows: 220px;
+        grid-auto-rows: 180px;
         gap: 15px;
     }
 
@@ -1880,7 +2345,7 @@ h2 {
 @media (max-width: 479px) {
     .dashboard_section {
         grid-template-columns: 1fr;
-        grid-auto-rows: 200px;
+        grid-auto-rows: 160px;
         gap: 12px;
     }
 
@@ -1888,5 +2353,380 @@ h2 {
     .span-6,
     .span-4 {
         grid-column: span 1;
+    }
+}
+
+/* Responsive Campaign Content */
+@media (max-width: 1023px) {
+    .campaign-content.fullwidth {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        height: auto;
+        padding: 25px 15px 65px 15px;
+    }
+    
+    .campaign-features-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+    
+    .campaign-header-full h2 {
+        font-size: 24px;
+    }
+    
+    .campaign-header .campaign-description {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}
+
+/* Tablet Responsive */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .campaign-header h3 {
+        font-size: 24px;
+    }
+    
+    .campaign-header h4 {
+        font-size: 20px;
+    }
+    
+    .campaign-header .campaign-description {
+        font-size: 12px;
+        line-height: 1.4;
+        margin: 10px 0 0 0;
+    }
+    
+    .dashboard_section {
+        grid-auto-rows: 230px;
+    }
+}
+
+@media (max-width: 767px) {
+    .campaign-content {
+        padding: 15px;
+    }
+    
+    .campaign-content.vertical {
+        padding: 15px;
+    }
+    
+    .campaign-content.fullwidth {
+        padding: 20px 20px 50px 20px; /* Alt taraftan 50px padding mobil için */
+    }
+    
+    .campaign-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .feature-item {
+        padding: 10px;
+    }
+    
+    .feature-item i {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    
+    .feature-item span {
+        font-size: 10px;
+    }
+    
+    .campaign-header h3 {
+        font-size: 22px;
+    }
+    
+    .campaign-header h4 {
+        font-size: 18px;
+    }
+    
+    .campaign-header-full h2 {
+        font-size: 20px;
+    }
+    
+    .campaign-subtitle {
+        font-size: 14px;
+    }
+    
+    .campaign-header .campaign-description {
+        font-size: 11px;
+        line-height: 1.3;
+        margin: 8px 0 0 0;
+    }
+    
+    .campaign-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .campaign-btn-primary,
+    .campaign-btn-secondary {
+        width: 100%;
+        justify-content: center;
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    
+    .whatsapp-campaign-btn {
+        padding: 8px 12px;
+        bottom: 12px;
+        right: 12px;
+        font-size: 12px;
+    }
+    
+    .whatsapp-campaign-btn i {
+        font-size: 14px;
+    }
+    
+    /* Full-width banner mobil yükseklik */
+    .span-12 {
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 479px) {
+    .campaign-features-grid {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    
+    .campaign-header h3 {
+        font-size: 18px;
+    }
+    
+    .campaign-header h4 {
+        font-size: 16px;
+    }
+    
+    .campaign-header-full h2 {
+        font-size: 18px;
+    }
+    
+    .campaign-subtitle {
+        font-size: 12px;
+    }
+    
+    .campaign-header .campaign-description {
+        font-size: 10px;
+        line-height: 1.3;
+        margin: 6px 0 0 0;
+    }
+    
+
+    
+    .dashboard_section {
+        grid-auto-rows: auto;
+        min-height: 160px;
+    }
+    
+    .campaign-content.vertical {
+        padding: 12px;
+    }
+    
+    .campaign-content.fullwidth {
+        padding: 15px 15px 45px 15px; /* Alt taraftan 45px padding küçük mobil için */
+    }
+    
+    .campaign-header {
+        margin-bottom: 10px;
+    }
+    
+    .whatsapp-campaign-btn {
+        padding: 6px 10px;
+        bottom: 10px;
+        right: 10px;
+        font-size: 11px;
+    }
+    
+    .whatsapp-campaign-btn i {
+        font-size: 12px;
+    }
+    
+    /* Full-width banner küçük mobil yükseklik */
+    .span-12 {
+        min-height: 280px;
+    }
+}
+
+/* Companies Section */
+:root {
+    /* Company Slider Speed Control - Değiştirmek için bu değeri düzenleyin */
+    --slider-speed: 40s; /* Daha hızlı için küçük değer (örn: 30s), daha yavaş için büyük değer (örn: 60s) */
+}
+
+.companies-section {
+    padding: 80px 40px;
+    background: var(--primary-bg);
+    border-bottom: 1px solid var(--border-light);
+    overflow: hidden;
+}
+
+.companies-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.companies-section .section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.companies-section .section-header h2 {
+    font-size: clamp(28px, 4.2vw, 48px);
+    font-weight: 300;
+    color: var(--text-primary);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.companies-section .section-header p {
+    font-size: 16px;
+    color: var(--text-secondary);
+    font-weight: 300;
+}
+
+.companies-slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    background: var(--primary-bg);
+}
+
+.companies-slider {
+    display: flex;
+    gap: 40px;
+    animation: slideLeft var(--slider-speed) linear infinite;
+    width: fit-content;
+    will-change: transform;
+}
+
+.companies-slider:hover {
+    animation-play-state: paused;
+}
+
+.company-logo {
+    min-width: 200px;
+    height: 120px;
+    background: var(--primary-bg);
+    border: 1px solid var(--border-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.company-logo:hover {
+    border-color: var(--text-primary);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo:hover .logo-placeholder {
+    color: var(--dark-bg);
+}
+
+.logo-placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0 20px;
+    transition: color 0.3s ease;
+}
+
+.company-logo img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.company-logo:hover img {
+    filter: grayscale(0%);
+}
+
+/* Keyframe animation for auto-scroll */
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Responsive Design for Companies Section */
+@media (max-width: 1024px) {
+    .companies-section {
+        padding: 60px 30px;
+    }
+    
+    .companies-slider {
+        gap: 30px;
+    }
+    
+    .company-logo {
+        min-width: 180px;
+        height: 100px;
+    }
+    
+    .logo-placeholder {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .companies-section {
+        padding: 50px 20px;
+    }
+    
+    .companies-section .section-header {
+        margin-bottom: 40px;
+    }
+    
+    .companies-slider {
+        gap: 20px;
+        animation-duration: var(--slider-speed);
+    }
+    
+    .company-logo {
+        min-width: 150px;
+        height: 80px;
+    }
+    
+    .logo-placeholder {
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .companies-section {
+        padding: 40px 15px;
+    }
+    
+    .companies-slider {
+        gap: 15px;
+        animation-duration: var(--slider-speed);
+    }
+    
+    .company-logo {
+        min-width: 120px;
+        height: 70px;
+    }
+    
+    .logo-placeholder {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        padding: 0 10px;
     }
 }

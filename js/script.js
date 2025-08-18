@@ -13,7 +13,7 @@ const campaignData = {
             "image": "https://images.unsplash.com/photo-1663841365334-06805f34af15?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
-            "title": "Kurumsal Ofis Kantinleri",
+            "title": "Kurumsal Ofis Ve Yemekhaneler",
             "description": "Ofis kantinlerine aylık tedarik anlaşmaları ve düzenli teslimat. Eksiksiz ve zamanında hizmet.",
             "image": "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
@@ -393,23 +393,23 @@ function loadProducts() {
 // Smooth scroll for navigation links (Updated for Bootstrap navbar)
 function initSmoothScroll() {
     const navLinks = document.querySelectorAll('.navbar-nav a[href^="#"]');
-    
+
     navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
+        link.addEventListener('click', function (e) {
             e.preventDefault();
-            
+
             const targetId = this.getAttribute('href');
             const targetSection = document.querySelector(targetId);
-            
+
             if (targetSection) {
                 const navbarHeight = document.querySelector('.navbar').offsetHeight;
                 const targetPosition = targetSection.offsetTop - navbarHeight - 20;
-                
+
                 window.scrollTo({
                     top: targetPosition,
                     behavior: 'smooth'
                 });
-                
+
                 // Close mobile menu if open (Bootstrap)
                 const navbarCollapse = document.querySelector('#navbarNav');
                 if (navbarCollapse.classList.contains('show')) {
@@ -423,10 +423,91 @@ function initSmoothScroll() {
     });
 }
 
+// Companies Slider Functionality
+function initCompaniesSlider() {
+    const slider = document.getElementById('companiesSlider');
+    if (!slider) return;
+
+    // Clone all company logos once to create seamless infinite scroll
+    const companies = Array.from(slider.children);
+    
+    // Clone the companies once for the infinite effect
+    companies.forEach(company => {
+        const clone = company.cloneNode(true);
+        slider.appendChild(clone);
+    });
+
+    // Pause animation on hover for all company logos
+    const allCompanyLogos = slider.querySelectorAll('.company-logo');
+    
+    allCompanyLogos.forEach(logo => {
+        logo.addEventListener('mouseenter', () => {
+            slider.style.animationPlayState = 'paused';
+        });
+
+        logo.addEventListener('mouseleave', () => {
+            slider.style.animationPlayState = 'running';
+        });
+    });
+
+    // Touch support for mobile
+    let startX = 0;
+    let currentX = 0;
+    let isDown = false;
+    let animationPaused = false;
+
+    slider.addEventListener('touchstart', (e) => {
+        isDown = true;
+        animationPaused = true;
+        startX = e.touches[0].pageX;
+        currentX = startX;
+        slider.style.animationPlayState = 'paused';
+    });
+
+    slider.addEventListener('touchmove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        currentX = e.touches[0].pageX;
+    });
+
+    slider.addEventListener('touchend', () => {
+        isDown = false;
+        
+        // Resume animation after a short delay
+        setTimeout(() => {
+            if (!animationPaused) {
+                slider.style.animationPlayState = 'running';
+            }
+        }, 100);
+        
+        animationPaused = false;
+    });
+
+    // Intersection Observer for performance optimization
+    const observerOptions = {
+        root: null,
+        rootMargin: '50px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                slider.style.animationPlayState = 'running';
+            } else {
+                slider.style.animationPlayState = 'paused';
+            }
+        });
+    }, observerOptions);
+
+    observer.observe(slider);
+}
+
 // Initialize page
 document.addEventListener('DOMContentLoaded', () => {
     loadCampaigns();
     initSmoothScroll();
+    initCompaniesSlider();
 });
 
 // Update current year in footer
