@@ -13,6 +13,7 @@
     --success-color: #27ae60;
     --danger-color: #e74c3c;
     --warning-color: #f39c12;
+    --slider-speed: 20s; 
 }
 
 * {
@@ -2417,7 +2418,7 @@ h2 {
     
     .campaign-features-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+        gap: 15px;
     }
     
     .feature-item {
@@ -2487,8 +2488,8 @@ h2 {
 
 @media (max-width: 479px) {
     .campaign-features-grid {
-        grid-template-columns: 1fr;
-        gap: 8px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
     }
     
     .campaign-header h3 {
@@ -2547,12 +2548,6 @@ h2 {
     .span-12 {
         min-height: 280px;
     }
-}
-
-/* Companies Section */
-:root {
-    /* Company Slider Speed Control - Değiştirmek için bu değeri düzenleyin */
-    --slider-speed: 40s; /* Daha hızlı için küçük değer (örn: 30s), daha yavaş için büyük değer (örn: 60s) */
 }
 
 .companies-section {
@@ -2640,15 +2635,15 @@ h2 {
     transition: color 0.3s ease;
 }
 
-.company-logo img {
-    max-width: 80%;
-    max-height: 80%;
+.company-image {
+    width: 100%;
+    height: 100%;
     object-fit: contain;
     filter: grayscale(100%);
     transition: filter 0.3s ease;
 }
 
-.company-logo:hover img {
+.company-logo:hover .company-image {
     filter: grayscale(0%);
 }
 
