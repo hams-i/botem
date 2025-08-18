@@ -51,12 +51,37 @@
         
         .categories-container {
             padding: 0 20px;
+            position: relative;
         }
         
         .categorySwiper {
             overflow: hidden;
             padding: 0;
         }
+
+        /* Category navigation arrows */
+        .category-nav-btn {
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            cursor: pointer;
+            z-index: 10;
+            box-shadow: none;
+            background: var(--primary-bg);
+        }
+
+        .category-nav-btn:hover {
+            cursor: pointer;
+        }
+
+        .category-prev { left: -40px; margin-left: 10px;}
+        .category-next { right: -40px; margin-right: 10px;}
 
         .categorySwiper .swiper-wrapper {
             padding: 20px 0 30px 0;
@@ -230,6 +255,7 @@
             right: 20px;
             background: var(--text-primary);
             color: var(--text-white);
+            border: 1px solid var(--text-primary);
             padding: 8px 16px;
             font-size: 12px;
             font-weight: 400;
@@ -276,8 +302,7 @@
         }
         
         .discount-price {
-            color: var(--danger-color);
-            font-weight: 600;
+            color: var(--text-primary);
         }
         
         .product-unit {
@@ -466,6 +491,33 @@
                 font-size: 10px;
             }
             
+            /* Hide desktop arrows on mobile */
+            .category-prev:not(.category-prev-mobile),
+            .category-next:not(.category-next-mobile) {
+                display: none !important;
+            }
+            
+            /* Mobile nav arrows container */
+            .category-nav-mobile {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+            
+            .category-nav-mobile .category-nav-btn {
+                position: relative !important;
+                top: auto !important;
+                left: auto !important;
+                right: auto !important;
+                margin: 0 !important;
+                transform: none !important;
+                display: inline-flex;
+            }
+            
+            .categories-section {
+                margin: 60px 0 20px 0;
+            }
+            
             /* Products 2 yan yana */
             .products-grid {
                 grid-template-columns: 1fr 1fr;
@@ -507,7 +559,7 @@
             }
             
             .product-image-container {
-                height: 160px;
+                height: 230px;
             }
         }
 
@@ -856,6 +908,22 @@
                         <!-- Scrollbar -->
                         <div class="swiper-scrollbar"></div>
                     </div>
+                    <!-- Category nav arrows -->
+                    <button class="category-nav-btn category-prev" aria-label="Önceki kategori">
+                        <span class="material-icons">chevron_left</span>
+                    </button>
+                    <button class="category-nav-btn category-next" aria-label="Sonraki kategori">
+                        <span class="material-icons">chevron_right</span>
+                    </button>
+                    <!-- Mobile nav arrows container -->
+                    <div class="category-nav-mobile d-md-none text-center">
+                        <button class="category-nav-btn category-prev-mobile" aria-label="Önceki kategori">
+                            <span class="material-icons">chevron_left</span>
+                        </button>
+                        <button class="category-nav-btn category-next-mobile" aria-label="Sonraki kategori">
+                            <span class="material-icons">chevron_right</span>
+                        </button>
+                    </div>
                 </div>
             </div>
             
@@ -896,7 +964,7 @@
                         <img src="images/companies/3.jpeg" alt="Company Logo 3" class="company-image">
                     </div>
                     <div class="company-logo">
-                        <img src="images/companies/4.jpeg" alt="Company Logo 4" class="company-image">
+                        <img src="images/companies/4.jpeg" alt="Company Logo 4" style="height: 70%" class="company-image">
                     </div>
                     <div class="company-logo">
                         <img src="images/companies/5.png" alt="Company Logo 5" class="company-image">
@@ -920,7 +988,28 @@
                         <img src="images/companies/11.jpeg" alt="Company Logo 11" class="company-image">
                     </div>
                     <div class="company-logo">
-                        <img src="images/companies/12.jpeg" alt="Company Logo 12" class="company-image">
+                        <img src="images/companies/12.jpeg" alt="Company Logo 12" style="height: 130%" class="company-image">
+                    </div>
+                    <div class="company-logo">
+                        <img src="images/companies/13.jpeg" alt="Company Logo 13" class="company-image">
+                    </div>
+                    <div class="company-logo">
+                        <img src="images/companies/14.png" alt="Company Logo 14" style="height: 60%" class="company-image">
+                    </div>
+                    <div class="company-logo">
+                        <img src="images/companies/15.png" alt="Company Logo 15" style="height: 60%" class="company-image">
+                    </div>
+                    <div class="company-logo">
+                        <img src="images/companies/16.jpeg" alt="Company Logo 16" class="company-image">
+                    </div>
+                    <div class="company-logo">
+                        <img src="images/companies/17.jpeg" alt="Company Logo 17" class="company-image">
+                    </div>
+                    <div class="company-logo">
+                        <img src="images/companies/18.jpeg" alt="Company Logo 18" class="company-image">
+                    </div>
+                    <div class="company-logo">
+                        <img src="images/companies/19.png" alt="Company Logo 19" class="company-image">
                     </div>
                 </div>
             </div>
@@ -1332,21 +1421,33 @@
             
             container.innerHTML = `
                 <div class="products-grid">
-                    ${products.map(product => `
+                    ${products.map(product => {
+                        const basePriceStr = product['product-price'] || '';
+                        const basePriceNum = parseInt(String(basePriceStr).replace(/[^0-9]/g, ''), 10) || 0;
+                        const discountRateRaw = String(product['discount-rate'] || '0');
+                        const discountRateNum = parseFloat(discountRateRaw) || 0;
+                        const hasDiscount = !!product.discount && discountRateNum > 0;
+                        const discountedNum = hasDiscount ? Math.round(basePriceNum * (1 - (discountRateNum / 100))) : basePriceNum;
+                        const discountedStr = `${discountedNum.toLocaleString('tr-TR')} ₺`;
+                        const badge = hasDiscount ? `<div class="product-badge">İndirim %${discountRateRaw}</div>` : '';
+                        const priceHtml = hasDiscount
+                            ? `<span class="original-price">${basePriceStr}</span><span class="discount-price">${discountedStr}</span>`
+                            : `<span>${basePriceStr}</span>`;
+                        const waPriceForMessage = hasDiscount ? discountedStr : basePriceStr;
+                        return `
                         <div class="product-card">
                             <div class="product-image-container">
-                                ${product.discount ? '<div class="product-badge">İndirim</div>' : ''}
+                                ${badge}
                                 ${product['product-image'] ? `<img src="${product['product-image']}" alt="${product['product-name']}" class="product-image">` : '<div class="product-image-placeholder"></div>'}
                             </div>
                             <div class="product-content">
                                 <h4 class="product-name">${product['product-name']}</h4>
                                 <div class="product-price">
-                                    ${product.discount ? `<span class="original-price">${product['product-price']}</span>` : ''}
-                                    ${product.discount ? `<span class="discount-price">${product['discount-price']} ₺</span>` : `<span>${product['product-price']}</span>`}
+                                    ${priceHtml}
                                     <span class="product-unit">${product['product-unit'] || ''}</span>
                                 </div>
                                 <div class="product-actions">
-                                    <a href="https://wa.me/905323663401?text=Merhaba, ${encodeURIComponent(product['product-name'])} ürünü hakkında bilgi almak istiyorum. Fiyat: ${product['product-price']} ${product['product-unit'] || ''}" 
+                                    <a href="https://wa.me/905323663401?text=Merhaba, ${encodeURIComponent(product['product-name'])} ürünü hakkında bilgi almak istiyorum. Fiyat: ${waPriceForMessage} ${product['product-unit'] || ''}" 
                                        class="btn-whatsapp" target="_blank">
                                         <i class="fab fa-whatsapp" style="font-size: 16px;"></i>
                                         WhatsApp
@@ -1357,8 +1458,8 @@
                                     </button>
                                 </div>
                             </div>
-                        </div>
-                    `).join('')}
+                        </div>`;
+                    }).join('')}
                 </div>
             `;
         }
@@ -1487,6 +1588,41 @@
                 observer: true,
                 observeParents: true
             });
+
+            // Bind custom prev/next buttons
+            const prevBtn = document.querySelector('.category-prev');
+            const nextBtn = document.querySelector('.category-next');
+            const prevBtnMobile = document.querySelector('.category-prev-mobile');
+            const nextBtnMobile = document.querySelector('.category-next-mobile');
+            
+            if (prevBtn) {
+                prevBtn.addEventListener('click', () => {
+                    if (categorySwiper) {
+                        categorySwiper.slidePrev();
+                    }
+                });
+            }
+            if (nextBtn) {
+                nextBtn.addEventListener('click', () => {
+                    if (categorySwiper) {
+                        categorySwiper.slideNext();
+                    }
+                });
+            }
+            if (prevBtnMobile) {
+                prevBtnMobile.addEventListener('click', () => {
+                    if (categorySwiper) {
+                        categorySwiper.slidePrev();
+                    }
+                });
+            }
+            if (nextBtnMobile) {
+                nextBtnMobile.addEventListener('click', () => {
+                    if (categorySwiper) {
+                        categorySwiper.slideNext();
+                    }
+                });
+            }
         }
 
         // Initialize products when page loads
