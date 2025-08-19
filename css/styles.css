@@ -1736,7 +1736,7 @@ h2 {
 
 .dashboard_section .grid-item {
     position: relative;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -1763,7 +1763,7 @@ h2 {
 }
 
 .campaign-content.fullwidth {
-    padding: 30px 40px;
+    padding: 30px 40px 60px 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1866,7 +1866,7 @@ h2 {
     text-align: center;
     padding: 15px;
     background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px;
+    /* border-radius: 8px; */
     backdrop-filter: blur(10px);
 }
 
@@ -1905,7 +1905,7 @@ h2 {
     background: rgba(255, 255, 255, 0.2);
     color: white;
     padding: 8px 16px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     text-decoration: none;
     font-size: 12px;
     font-weight: 500;
@@ -1928,7 +1928,7 @@ h2 {
     background: rgba(255, 255, 255, 0.2);
     color: white;
     padding: 6px 12px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     text-decoration: none;
     font-size: 11px;
     font-weight: 500;
@@ -1955,7 +1955,7 @@ h2 {
     background: rgba(255, 255, 255, 0.2);
     color: white;
     padding: 12px 24px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -1978,7 +1978,7 @@ h2 {
     background: transparent;
     color: white;
     padding: 12px 24px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -2004,7 +2004,7 @@ h2 {
     background: rgba(255, 255, 255, 0.2);
     color: white;
     padding: 10px 16px;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     text-decoration: none;
     font-size: 13px;
     font-weight: 500;
@@ -2176,7 +2176,6 @@ h2 {
         flex-direction: column;
         gap: 20px;
         text-align: center;
-        height: auto;
         padding: 25px 15px 65px 15px;
     }
     

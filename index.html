@@ -743,7 +743,6 @@
             .cart-trigger {
                 min-width: 140px;
                 padding: 10px 12px;
-                border-radius: 6px;
             }
             
             .cart-message {
@@ -798,8 +797,17 @@
             }
             
             .cart-checkout {
-                padding: 12px;
-                font-size: 13px;
+                padding: 10px 6px;
+                font-size: 9px;
+                gap: 3px;
+            }
+            
+            .cart-checkout .fab.fa-whatsapp {
+                font-size: 12px;
+            }
+            
+            .cart-checkout-buttons {
+                gap: 6px;
             }
             
             /* Service stats adjustments */
@@ -1069,7 +1077,6 @@
             background: #000;
             color: white;
             padding: 16px 20px;
-            border-radius: 8px;
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -1299,24 +1306,45 @@
             font-size: 18px;
         }
 
-        .cart-checkout {
+        .cart-checkout-buttons {
+            display: flex;
+            gap: 8px;
             width: 100%;
-            background: #000;
-            color: white;
+        }
+
+        .cart-checkout {
+            flex: 1;
             border: none;
-            padding: 16px;
-            border-radius: 6px;
-            font-size: 14px;
+            padding: 8px 12px;
+            font-size: 13px;
             font-weight: 600;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
+            gap: 6px;
             transition: all 0.3s ease;
         }
+        
+        .cart-checkout .fab.fa-whatsapp {
+            font-size: 26px;
+        }
 
-        .cart-checkout:hover {
+        .whatsapp-checkout {
+            background: #25D366;
+            color: white;
+        }
+
+        .whatsapp-checkout:hover {
+            background: #1DA851;
+        }
+
+        .email-checkout {
+            background: #000;
+            color: white;
+        }
+
+        .email-checkout:hover {
             background: #333;
         }
 
@@ -2096,10 +2124,16 @@
                 <span class="total-items" id="totalItems">0 ürün</span>
                 <span class="total-amount" id="totalAmount">0 ₺</span>
             </div>
-            <button class="cart-checkout" id="cartCheckout">
-                <span class="material-icons">request_quote</span>
-                Kurumsal Teklif Al
-            </button>
+            <div class="cart-checkout-buttons">
+                <button class="cart-checkout whatsapp-checkout" id="cartCheckoutWhatsApp">
+                    <span class="fab fa-whatsapp"></span>
+                    WhatsApp - Kurumsal Teklif Al
+                </button>
+                <button class="cart-checkout email-checkout" id="cartCheckoutEmail">
+                    <span class="material-icons">email</span>
+                    Mail - Kurumsal Teklif Al
+                </button>
+            </div>
         </div>
     </div>
 
@@ -2469,7 +2503,8 @@
             const cartPanel = document.getElementById('cartPanel');
             const cartClose = document.getElementById('cartClose');
             const cartOverlay = document.getElementById('cartOverlay');
-            const cartCheckout = document.getElementById('cartCheckout');
+            const cartCheckoutWhatsApp = document.getElementById('cartCheckoutWhatsApp');
+            const cartCheckoutEmail = document.getElementById('cartCheckoutEmail');
             
             // Open cart
             cartTrigger.addEventListener('click', () => {
@@ -2518,29 +2553,63 @@
                 });
             }
             
-            // Checkout
-            cartCheckout.addEventListener('click', () => {
+            // WhatsApp Checkout
+            cartCheckoutWhatsApp.addEventListener('click', () => {
                 if (cart.length === 0) {
                     alert('Sepetinizde ürün bulunmamaktadır.');
                     return;
                 }
                 
-                // Generate WhatsApp message
-                let message = 'Merhaba, aşağıdaki ürünler için kurumsal teklif almak istiyorum:\n\n';
-                
-                cart.forEach((item, index) => {
-                    message += `${index + 1}. ${item.name}\n`;
-                    message += `   Miktar: ${item.quantity} ${item.unit}\n`;
-                    message += `   Birim Fiyat: ${item.priceDisplay}\n\n`;
-                });
-                
-                const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-                message += `Toplam Tutar: ${total.toLocaleString('tr-TR')} ₺\n\n`;
-                message += 'Lütfen bu ürünler için kurumsal teklifinizi paylaşır mısınız?';
-                
-                const whatsappUrl = `https://wa.me/905323663401?text=${encodeURIComponent(message)}`;
-                window.open(whatsappUrl, '_blank');
+                generateWhatsAppMessage();
             });
+            
+            // Email Checkout
+            cartCheckoutEmail.addEventListener('click', () => {
+                if (cart.length === 0) {
+                    alert('Sepetinizde ürün bulunmamaktadır.');
+                    return;
+                }
+                
+                generateEmailMessage();
+            });
+        }
+        
+        // Generate WhatsApp message
+        function generateWhatsAppMessage() {
+            let message = 'Merhaba, aşağıdaki ürünler için kurumsal teklif almak istiyorum:\n\n';
+            
+            cart.forEach((item, index) => {
+                message += `${index + 1}. ${item.name}\n`;
+                message += `   Miktar: ${item.quantity} ${item.unit}\n`;
+                message += `   Birim Fiyat: ${item.priceDisplay}\n\n`;
+            });
+            
+            const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            message += `Toplam Tutar: ${total.toLocaleString('tr-TR')} ₺\n\n`;
+            message += 'Lütfen bu ürünler için kurumsal teklifinizi WhatsApp üzerinden paylaşır mısınız?';
+            
+            const whatsappUrl = `https://wa.me/905323663401?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+        
+        // Generate Email message
+        function generateEmailMessage() {
+            let subject = 'Kurumsal Teklif Talebi';
+            
+            let body = 'Merhaba, aşağıdaki ürünler için kurumsal teklif almak istiyorum:\n\n';
+            
+            cart.forEach((item, index) => {
+                body += `${index + 1}. ${item.name}\n`;
+                body += `   Miktar: ${item.quantity} ${item.unit}\n`;
+                body += `   Birim Fiyat: ${item.priceDisplay}\n\n`;
+            });
+            
+            const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+            body += `Toplam Tutar: ${total.toLocaleString('tr-TR')} ₺\n\n`;
+            body += 'Lütfen bu ürünler için kurumsal teklifinizi e-posta üzerinden paylaşır mısınız?';
+            
+            const mailtoUrl = `mailto:info@botemgida.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            window.open(mailtoUrl, '_blank');
         }
         
         // Show cart notification
