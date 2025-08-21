@@ -9,7 +9,7 @@ const campaignData = {
         },
         {
             "title": "Fabrika Yemekhane Paketleri",
-            "description": "Fabrika yemekhaneleri için paket fiyatlar. Yüksek hacimli bakliyat, pirinç ve temel gıda tedariki.",
+            "description": "Fabrika yemekhaneleri için özel fiyatlar. Yüksek hacimli bakliyat, pirinç ve temel gıda tedariki.",
             "image": "https://images.unsplash.com/photo-1663841365334-06805f34af15?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
