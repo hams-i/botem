@@ -39,24 +39,24 @@
                 "product-image": "",
                 "product-price": "812 ₺",
                 "product-unit": "ÇUVAL",
-                "discount": true,
-                "discount-rate": "5"
+                "discount": false,
+                "discount-rate": "0"
             },
             {
                 "product-name": "Özhanlar Pilavlık Bulgur 25 Kg",
                 "product-image": "",
                 "product-price": "750 ₺",
                 "product-unit": "ÇUVAL",
-                "discount": true,
-                "discount-rate": "5"
+                "discount": false,
+                "discount-rate": "0"
             },
             {
                 "product-name": "Özhanlar Köftelik Bulgur 25 Kg",
                 "product-image": "",
                 "product-price": "750 ₺",
                 "product-unit": "ÇUVAL",
-                "discount": true,
-                "discount-rate": "5"
+                "discount": false,
+                "discount-rate": "0"
             },
             {
                 "product-name": "Özsarı Pilavlık Bulgur 25 Kg",
