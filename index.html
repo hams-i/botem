@@ -2175,6 +2175,19 @@
         let allCategories = [];
         let currentCategoryIndex = 0;
 
+        // Format price function - removes .00 if present
+        function formatPrice(priceStr) {
+            if (!priceStr) return '';
+            
+            // If the price contains a decimal point
+            if (priceStr.includes('.')) {
+                // Remove .00 if it exists at the end
+                return priceStr.replace(/\.00(?=\s*₺|$)/, '');
+            }
+            
+            return priceStr;
+        }
+
         // Load products data
         async function loadProducts() {
             try {
@@ -2298,13 +2311,13 @@
             container.innerHTML = `
                 <div class="products-grid">
                     ${products.map(product => {
-                        const basePriceStr = product['product-price'] || '';
-                        const basePriceNum = parseInt(String(basePriceStr).replace(/[^0-9]/g, ''), 10) || 0;
+                        const basePriceStr = formatPrice(product['product-price'] || '');
+                        const basePriceNum = parseFloat(String(basePriceStr).replace(/[^0-9.]/g, '')) || 0;
                         const discountRateRaw = String(product['discount-rate'] || '0');
                         const discountRateNum = parseFloat(discountRateRaw) || 0;
                         const hasDiscount = !!product.discount && discountRateNum > 0;
-                        const discountedNum = hasDiscount ? Math.round(basePriceNum * (1 - (discountRateNum / 100))) : basePriceNum;
-                        const discountedStr = `${discountedNum} ₺`;
+                        const discountedNum = hasDiscount ? (basePriceNum * (1 - (discountRateNum / 100))) : basePriceNum;
+                        const discountedStr = formatPrice(`${discountedNum.toFixed(2)} ₺`);
                         const badge = hasDiscount ? `<div class="product-badge">İndirim %${discountRateRaw}</div>` : '';
                         const priceHtml = hasDiscount
                             ? `<span class="original-price">${basePriceStr}</span><span class="discount-price">${discountedStr}</span>`
