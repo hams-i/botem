@@ -4,7 +4,7 @@
         "products": [
             {
                 "product-name": "Sezerler Osmancık Pirinç 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Sezerler Osmancık Pirinç 25 Kg.jpg",
                 "product-price": "1818.00 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": true,
@@ -12,7 +12,7 @@
             },
             {
                 "product-name": "Özbirlik Osmancık Pirinç 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özbirlik Osmancık Pirinç 25 Kg.jpg",
                 "product-price": "1767.50 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -20,7 +20,7 @@
             },
             {
                 "product-name": "Minel Osmancık Pirinç 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Minel Osmancık Pirinç 25 Kg.png",
                 "product-price": "1590.75 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -28,7 +28,7 @@
             },
             {
                 "product-name": "Sezerler Baldo Pirinç 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Sezerler Baldo Pirinç 25 Kg.jpg",
                 "product-price": "2373.50 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": true,
@@ -36,7 +36,7 @@
             },
             {
                 "product-name": "Duru Pilavlık Bulgur 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Duru Pilavlık Bulgur 25 Kg.jpg",
                 "product-price": "820.62 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -44,7 +44,7 @@
             },
             {
                 "product-name": "Özhanlar Pilavlık Bulgur 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özhanlar Pilavlık Bulgur 25 Kg.png",
                 "product-price": "757.50 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -52,7 +52,7 @@
             },
             {
                 "product-name": "Özhanlar Köftelik Bulgur 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özhanlar Köftelik Bulgur 25 Kg.png",
                 "product-price": "757.50 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -60,7 +60,7 @@
             },
             {
                 "product-name": "Özsarı Pilavlık Bulgur 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özsarı Pilavlık Bulgur 25 Kg.jpg",
                 "product-price": "1035.25 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": true,
@@ -68,7 +68,7 @@
             },
             {
                 "product-name": "Özsarı İri Pilavlık Bulgur 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özsarı İri Pilavlık Bulgur 25 Kg.jpg",
                 "product-price": "1035.25 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": true,
@@ -76,7 +76,7 @@
             },
             {
                 "product-name": "Özsarı Köftelik Bulgur 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özsarı Köftelik Bulgur 25 Kg.jpg",
                 "product-price": "1035.25 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": true,
@@ -84,7 +84,7 @@
             },
             {
                 "product-name": "Akın Çiğ Köftelik Bulgur Esmer 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Akın Çiğ Köftelik Bulgur Esmer 25 Kg.jpg",
                 "product-price": "782.75 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -92,7 +92,7 @@
             },
             {
                 "product-name": "Tat Kırmızı Mercimek Yerli 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Tat Kırmızı Mercimek Yerli 25 Kg.jpeg",
                 "product-price": "1843.25 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -100,7 +100,7 @@
             },
             {
                 "product-name": "Özsarı Kırmızı Mercimek Yerli 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özsarı Kırmızı Mercimek Yerli 25 Kg.jpeg",
                 "product-price": "2045.25 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": true,
@@ -108,7 +108,7 @@
             },
             {
                 "product-name": "Özsarı Kırmızı Mercimek Yerli Yaprak 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özsarı Kırmızı Mercimek Yerli Yaprak 25 Kg.jpeg",
                 "product-price": "2045.25 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": true,
@@ -116,7 +116,7 @@
             },
             {
                 "product-name": "Tat Yeşil Mercimek 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Tat Yeşil Mercimek 25 Kg.gif",
                 "product-price": "1868.50 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -124,7 +124,7 @@
             },
             {
                 "product-name": "Tat Nohut Yerli 8.5 mm 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Tat Nohut Yerli 8.5 mm 25 Kg.jpg",
                 "product-price": "1515.00 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -132,7 +132,7 @@
             },
             {
                 "product-name": "Özsarı Beyaz İri Nohut 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özsarı Beyaz İri Nohut 25 Kg.webp",
                 "product-price": "2903.75 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -140,7 +140,7 @@
             },
             {
                 "product-name": "Özsarı Kurufasülye Dermason 8.5 mm 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Özsarı Kurufasülye Dermason 8.5 mm 25 Kg.webp",
                 "product-price": "1893.75 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -148,7 +148,7 @@
             },
             {
                 "product-name": "Tat Barbunya 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bakliyat/Tat Barbunya 25 Kg.jpg",
                 "product-price": "2828.00 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -161,7 +161,7 @@
         "products": [
             {
                 "product-name": "Biryağ Ayçiçek Yağı 18 Lt",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Biryağ Ayçiçek Yağı 18 Lt.jpg",
                 "product-price": "1590.75 ₺",
                 "product-unit": "TNK",
                 "discount": true,
@@ -169,7 +169,7 @@
             },
             {
                 "product-name": "Yudum Ayçiçek Yağı 18 Lt",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Yudum Ayçiçek Yağı 18 Lt .jpg",
                 "product-price": "1565.50 ₺",
                 "product-unit": "TNK",
                 "discount": false,
@@ -177,7 +177,7 @@
             },
             {
                 "product-name": "Frita Kızartmalık Yağı 18 Lt",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Frita Kızartmalık Yağı 18 Lt.png",
                 "product-price": "1787.70 ₺",
                 "product-unit": "TNK",
                 "discount": true,
@@ -185,7 +185,7 @@
             },
             {
                 "product-name": "Yudum Kızartmalık Yağı 18 Lt",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Yudum Kızartmalık Yağı 18 Lt.jpg",
                 "product-price": "1509.95 ₺",
                 "product-unit": "TNK",
                 "discount": false,
@@ -193,7 +193,7 @@
             },
             {
                 "product-name": "Birma Kızartmalık Yağı 18 Lt",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Birma Kızartmalık Yağı 18 Lt .jpg",
                 "product-price": "1439.25 ₺",
                 "product-unit": "TNK",
                 "discount": false,
@@ -201,7 +201,7 @@
             },
             {
                 "product-name": "Birma Margarin 250 Gr (48 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Birma Margarin 250 Gr (48 Ad).jpg",
                 "product-price": "1004.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -209,7 +209,7 @@
             },
             {
                 "product-name": "Rama Blok Margarin 2.5 Kg (6 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Rama Blok Margarin 2.5 Kg (6 Ad).jpg",
                 "product-price": "1408.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -217,7 +217,7 @@
             },
             {
                 "product-name": "Yudum Riviera Zeytinyağı 5 Lt",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Yudum Riviera Zeytinyağı 5 Lt.jpeg",
                 "product-price": "1206.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -225,7 +225,7 @@
             },
             {
                 "product-name": "Yudum Sızma Zeytinyağı 5 Lt",
-                "product-image": "",
+                "product-image": "product-images/Yağ Ürünleri/Yudum Sızma Zeytinyağı 5 Lt.jpg",
                 "product-price": "1464.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -238,7 +238,7 @@
         "products": [
             {
                 "product-name": "Ova Joker Un Kağıt 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Un & Nişasta/Ova Joker Un Kağıt 25 Kg.jpg",
                 "product-price": "631.25 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -246,7 +246,7 @@
             },
             {
                 "product-name": "Ova 1 Un Kağıt 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Un & Nişasta/Ova 1 Un Kağıt 25 Kg.jpg",
                 "product-price": "701.95 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -254,7 +254,7 @@
             },
             {
                 "product-name": "Ova Tam Buğday Unu 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Un & Nişasta/Ova Tam Buğday Unu 25 Kg.png",
                 "product-price": "701.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -262,7 +262,7 @@
             },
             {
                 "product-name": "Mutlu Buğday Unu Sarı Un 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Un & Nişasta/Mutlu Buğday Unu Sarı Un 25 Kg.jpg",
                 "product-price": "580.75 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -270,7 +270,7 @@
             },
             {
                 "product-name": "Eriş Un 1 Kg (10 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Un & Nişasta/Eriş Un 1 Kg (10 Ad).jpg",
                 "product-price": "277.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -278,7 +278,7 @@
             },
             {
                 "product-name": "İnci Buğday Nişastası 200 Gr (10 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Un & Nişasta/İnci Buğday Nişastası 200 Gr (10 Ad).jpeg",
                 "product-price": "297.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -286,7 +286,7 @@
             },
             {
                 "product-name": "Sunar Mısır Nişastası 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Un & Nişasta/Sunar Mısır Nişastası 25 Kg.jpg",
                 "product-price": "701.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -299,7 +299,7 @@
         "products": [
             {
                 "product-name": "Filiz Boncuk Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Boncuk Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -307,7 +307,7 @@
             },
             {
                 "product-name": "Filiz Burgu Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Burgu Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -315,7 +315,7 @@
             },
             {
                 "product-name": "Filiz Kalem Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Kalem Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -323,7 +323,7 @@
             },
             {
                 "product-name": "Filiz Arpa Şehriye 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Arpa Şehriye 500 Gr (20 Ad).jpeg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -331,7 +331,7 @@
             },
             {
                 "product-name": "Filiz Tel Şehriye 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Arpa Şehriye 500 Gr (20 Ad).jpeg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -339,7 +339,7 @@
             },
             {
                 "product-name": "Filiz Dirsek Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Dirsek Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -347,7 +347,7 @@
             },
             {
                 "product-name": "Filiz Erişte Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Erişte Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -355,7 +355,7 @@
             },
             {
                 "product-name": "Filiz Fırın Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Fırın Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -363,7 +363,7 @@
             },
             {
                 "product-name": "Filiz Fiyonk Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Fiyonk Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -371,7 +371,7 @@
             },
             {
                 "product-name": "Filiz İnce Uzun Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz İnce Uzun Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -379,7 +379,7 @@
             },
             {
                 "product-name": "Filiz Kelebek Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Kelebek Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -387,7 +387,7 @@
             },
             {
                 "product-name": "Filiz Spagetti Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Spagetti Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -395,7 +395,7 @@
             },
             {
                 "product-name": "Filiz Yüksük Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Yüksük Makarna 500 Gr (20 Ad).jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -403,7 +403,7 @@
             },
             {
                 "product-name": "Filiz Arpa Şehriye 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Arpa Şehriye 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -411,7 +411,7 @@
             },
             {
                 "product-name": "Filiz Tel Şehriye 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Tel Şehriye 5 Kg.jpeg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -419,7 +419,7 @@
             },
             {
                 "product-name": "Filiz Boncuk Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Boncuk Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -427,7 +427,7 @@
             },
             {
                 "product-name": "Filiz Burgu Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Burgu Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -435,7 +435,7 @@
             },
             {
                 "product-name": "Filiz Erişte Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Erişte Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -443,7 +443,7 @@
             },
             {
                 "product-name": "Filiz Fırın Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Fırın Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -451,7 +451,7 @@
             },
             {
                 "product-name": "Filiz Fiyonk Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Fiyonk Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -459,7 +459,7 @@
             },
             {
                 "product-name": "Filiz İnce Uzun Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz İnce Uzun Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -467,7 +467,7 @@
             },
             {
                 "product-name": "Filiz Kalem Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Kalem Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -475,7 +475,7 @@
             },
             {
                 "product-name": "Filiz Yüksük Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Yüksük Makarna 5 Kg.jpeg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -483,7 +483,7 @@
             },
             {
                 "product-name": "Filiz Mantı Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Mantı Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -491,7 +491,7 @@
             },
             {
                 "product-name": "Filiz Spagetti Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Filiz Spagetti Makarna 5 Kg.jpg",
                 "product-price": "221.69 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -499,7 +499,7 @@
             },
             {
                 "product-name": "Barilla Penne Makarna 500 Gr (9 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Barilla Penne Makarna 500 Gr (9 Ad).jpg",
                 "product-price": "361.07 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -507,7 +507,7 @@
             },
             {
                 "product-name": "Barilla Spagetti Makarna 500 Gr (16 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Barilla Spagetti Makarna 500 Gr (16 Ad).jpg",
                 "product-price": "641.35 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -515,7 +515,7 @@
             },
             {
                 "product-name": "Barilla Fettucine 500 Gr (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Barilla Fettucine 500 Gr (12 Ad).jpg",
                 "product-price": "1747.30 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -523,7 +523,7 @@
             },
             {
                 "product-name": "Barilla Tagliatelle 450 Gr (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Barilla Tagliatelle 450 Gr (12 Ad).jpg",
                 "product-price": "1747.30 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -531,7 +531,7 @@
             },
             {
                 "product-name": "Golda Arpa Şehriye 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Golda Arpa Şehriye 500 Gr (20 Ad).jpeg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -539,7 +539,7 @@
             },
             {
                 "product-name": "Golda Burgu Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Golda Burgu Makarna 500 Gr (20 Ad).jpeg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -547,7 +547,7 @@
             },
             {
                 "product-name": "Golda Kalem Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Golda Kalem Makarna 500 Gr (20 Ad).jpeg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -555,7 +555,7 @@
             },
             {
                 "product-name": "Golda İnce Uzun Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Golda İnce Uzun Makarna 500 Gr (20 Ad).jpeg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -563,7 +563,7 @@
             },
             {
                 "product-name": "Golda Boncuk Makarna 500 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Golda Boncuk Makarna 500 Gr (20 Ad).jpeg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -571,7 +571,7 @@
             },
             {
                 "product-name": "Tat Spagetti Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Tat Spagetti Makarna 5 Kg.jpg",
                 "product-price": "166.65 ₺",
                 "product-unit": "AD",
                 "discount": false,
@@ -579,7 +579,7 @@
             },
             {
                 "product-name": "Tat Kalem Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Tat Kalem Makarna 5 Kg.jpg",
                 "product-price": "166.65 ₺",
                 "product-unit": "AD",
                 "discount": false,
@@ -587,7 +587,7 @@
             },
             {
                 "product-name": "Tat Fiyonk Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Tat Fiyonk Makarna 5 Kg.jpg",
                 "product-price": "166.65 ₺",
                 "product-unit": "AD",
                 "discount": false,
@@ -595,7 +595,7 @@
             },
             {
                 "product-name": "Tat Yüksük Makarna 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Tat Yüksük Makarna 5 Kg.jpg",
                 "product-price": "166.65 ₺",
                 "product-unit": "AD",
                 "discount": false,
@@ -603,7 +603,7 @@
             },
             {
                 "product-name": "Tat Tel Şehriye 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Makarna/Tat Tel Şehriye 5 Kg.jpg",
                 "product-price": "166.65 ₺",
                 "product-unit": "AD",
                 "discount": false,
@@ -616,7 +616,7 @@
         "products": [
             {
                 "product-name": "Tat Domates Salçası 4300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Salça/Tat Domates Salçası 4300 Gr.jpg",
                 "product-price": "388.85 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -624,7 +624,7 @@
             },
             {
                 "product-name": "Tamek Domates Salçası 4300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Salça/Tamek Domates Salçası 4300 Gr.jpg",
                 "product-price": "297.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -632,7 +632,7 @@
             },
             {
                 "product-name": "Tukaş Domates Salçası 4300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Salça/Tukaş Domates Salçası 4300 Gr.jpg",
                 "product-price": "287.85 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -640,7 +640,7 @@
             },
             {
                 "product-name": "Öncü Domates Salçası 4300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Salça/Öncü Domates Salçası 4300 Gr.jpg",
                 "product-price": "479.75 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -648,7 +648,7 @@
             },
             {
                 "product-name": "Öncü Biber Salçası Tatlı 4300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Salça/Öncü Biber Salçası Tatlı 4300 Gr.jpg",
                 "product-price": "701.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -656,7 +656,7 @@
             },
             {
                 "product-name": "Öncü Biber Salçası Acı 4300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Salça/Öncü Biber Salçası Acı 4300 Gr.jpg",
                 "product-price": "701.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -669,7 +669,7 @@
         "products": [
             {
                 "product-name": "Pekşeker Toz Şeker 1000 Gr (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Pekşeker Toz Şeker 1000 Gr (20 Ad).jpg",
                 "product-price": "934.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -677,7 +677,7 @@
             },
             {
                 "product-name": "Kristal Toz Şeker 50 Kg",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Kristal Toz Şeker 50 Kg.jpg",
                 "product-price": "2070.50 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -685,7 +685,7 @@
             },
             {
                 "product-name": "Balküpü Küp Şeker 1 Kg (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Balküpü Küp Şeker 1 Kg (20 Ad).jpeg",
                 "product-price": "1035.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -693,7 +693,7 @@
             },
             {
                 "product-name": "Pekşeker Sargılı Küp Şeker 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Pekşeker Sargılı Küp Şeker 5 Kg.jpg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -701,7 +701,7 @@
             },
             {
                 "product-name": "Horeca Stick Şeker 3 Gr (1000 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Horeca Stick Şeker 3 Gr (1000 Ad).jpg",
                 "product-price": "297.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -709,7 +709,7 @@
             },
             {
                 "product-name": "Çaykur Tiryaki 1000 Gr (10 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Çaykur Tiryaki 1000 Gr (10 Ad).jpg",
                 "product-price": "2600.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -717,7 +717,7 @@
             },
             {
                 "product-name": "Çaykur Rize Turist 1000 Gr (10 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Çaykur Rize Turist 1000 Gr (10 Ad).jpg",
                 "product-price": "2600.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -725,7 +725,7 @@
             },
             {
                 "product-name": "Çaykur Filiz 1000 Gr (10 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Çaykur Filiz 1000 Gr (10 Ad).jpeg",
                 "product-price": "2822.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -733,7 +733,7 @@
             },
             {
                 "product-name": "Karali Demliğin Beklediği Çay 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Karali Demliğin Beklediği Çay 5 Kg.jpg",
                 "product-price": "1287.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -741,7 +741,7 @@
             },
             {
                 "product-name": "Ofçay Dostane Çay 500 Gr (24 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Ofçay Dostane Çay 500 Gr (24 Ad).jpg",
                 "product-price": "2272.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -749,7 +749,7 @@
             },
             {
                 "product-name": "Karali Kral Rize Çay 500 Gr (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Karali Kral Rize Çay 500 Gr (12 Ad).jpeg",
                 "product-price": "1030.20 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -757,7 +757,7 @@
             },
             {
                 "product-name": "Doğuş Bardak Çay 2 Gr (1000 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Doğuş Bardak Çay 2 Gr (1000 Ad).jpg",
                 "product-price": "1262.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -765,7 +765,7 @@
             },
             {
                 "product-name": "Doğuş Rize Jumbo Demlik Çay 40 Gr * 50 Ad (6 Pk)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/rize-jumbo-demlik.jpg",
                 "product-price": "3661.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -773,7 +773,7 @@
             },
             {
                 "product-name": "Mehmet Efendi Türk Kahvesi 100 Gr (25 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Mehmet Efendi Türk Kahvesi 100 Gr (25 Ad).jpg",
                 "product-price": "1830.62 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -781,7 +781,7 @@
             },
             {
                 "product-name": "Nescafe Gold 200 Gr",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Nescafe Gold 200 Gr.jpg",
                 "product-price": "368.65 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -789,7 +789,7 @@
             },
             {
                 "product-name": "Cafe Mate 500 Gr",
-                "product-image": "",
+                "product-image": "product-images/Şeker, Çay ve Kahve Ürünleri/Cafe Mate 500 Gr.jpg",
                 "product-price": "196.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -802,7 +802,7 @@
         "products": [
             {
                 "product-name": "Kayzer Limon Suyu %100 1 Lt (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Kayzer Limon Suyu _100 1 Lt (12 Ad).webp",
                 "product-price": "499.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -810,7 +810,7 @@
             },
             {
                 "product-name": "Kayzer Limon Suyu %100 5 Lt",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Kayzer Limon Suyu _100 5 Lt.png",
                 "product-price": "126.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -818,7 +818,7 @@
             },
             {
                 "product-name": "Kayzer Üzüm Sirkeli Sos 1 Lt (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Kayzer Üzüm Sirkeli Sos 1 Lt (12 Ad).jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -826,7 +826,7 @@
             },
             {
                 "product-name": "Kayzer Üzüm Sirkeli 5 Lt",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Kayzer Üzüm Sirkeli 5 Lt.jpg",
                 "product-price": "75.75 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -834,7 +834,7 @@
             },
             {
                 "product-name": "Vefa Üzüm Sirke 5 Lt",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Vefa Üzüm Sirke 5 Lt.jpeg",
                 "product-price": "252.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -842,7 +842,7 @@
             },
             {
                 "product-name": "Bürücek Salata Sosu 1 Kg (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Bürücek Salata Sosu 1 Kg (12 Ad).jpg",
                 "product-price": "934.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -850,7 +850,7 @@
             },
             {
                 "product-name": "Nar Çiçeği Nar Ekşisi %100 1 Lt (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Nar Çiçeği Nar Ekşisi _100 1 Lt (12 Ad).jpg",
                 "product-price": "1515.00 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -858,7 +858,7 @@
             },
             {
                 "product-name": "Seç Nar Ekşisi Cam %100 1 Lt (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Seç Nar Ekşisi Cam _100 1 Lt (12 Ad).jpg",
                 "product-price": "2525.00 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -866,7 +866,7 @@
             },
             {
                 "product-name": "Sosi Limon Suyu 10 ml (200 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Sosi Limon Suyu 10 ml (200 Ad).png",
                 "product-price": "1262.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -874,7 +874,7 @@
             },
             {
                 "product-name": "Sosi Üzüm Sirke 10 ml (200 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Sosi Üzüm Sirke 10 ml (200 Ad).png",
                 "product-price": "1262.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -882,7 +882,7 @@
             },
             {
                 "product-name": "Sosi Zeytinyağı 10 ml (200 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Sirke ve Sos/Sosi Zeytinyağı 10 ml (200 Ad).png",
                 "product-price": "1969.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -895,7 +895,7 @@
         "products": [
             {
                 "product-name": "Billur Tuz 750 Gram (30 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tuz/Billur Tuz 750 Gram (30 Ad).jpg",
                 "product-price": "666.60 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -903,7 +903,7 @@
             },
             {
                 "product-name": "Salina Tuz 750 Gram (30 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tuz/Salina Tuz 750 Gram (30 Ad).jpg",
                 "product-price": "328.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -911,7 +911,7 @@
             },
             {
                 "product-name": "Günaydın Yemeklik Tuz 1.5 Kg (10 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tuz/Günaydın Yemeklik Tuz 1.5 Kg (10 Ad).jpg",
                 "product-price": "176.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -924,7 +924,7 @@
         "products": [
             {
                 "product-name": "Knor Et Bulyon 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Knor Et Bulyon 5 Kg.jpg",
                 "product-price": "1408.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -932,7 +932,7 @@
             },
             {
                 "product-name": "Knor Tavuk Bulyon 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Knor Tavuk Bulyon 5 Kg.jpg",
                 "product-price": "1408.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -940,7 +940,7 @@
             },
             {
                 "product-name": "Knor Sebzeli Çeşni 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Knor Sebzeli Çeşni 5 Kg.jpg",
                 "product-price": "1565.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -948,7 +948,7 @@
             },
             {
                 "product-name": "Bizim Mutfak Et Bulyon 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Bizim Mutfak Et Bulyon 5 Kg.jpg",
                 "product-price": "959.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -956,7 +956,7 @@
             },
             {
                 "product-name": "Bizim Mutfak Tavuk Bulyon 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Bizim Mutfak Tavuk Bulyon 5 Kg .jpg",
                 "product-price": "959.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -964,7 +964,7 @@
             },
             {
                 "product-name": "Bizim Mutfak Sebzeli Çeşni 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Bizim Mutfak Sebzeli Çeşni 5 Kg.jpg",
                 "product-price": "959.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -972,7 +972,7 @@
             },
             {
                 "product-name": "Lezzetçi Tavuk Bulyon 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Lezzetçi Tavuk Bulyon 5 Kg.jpg",
                 "product-price": "757.50 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -980,7 +980,7 @@
             },
             {
                 "product-name": "Lezzetçi Et Bulyon 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Lezzetçi Et Bulyon 5 Kg.jpg",
                 "product-price": "757.50 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -988,7 +988,7 @@
             },
             {
                 "product-name": "Lezzetçi Sebzeli Çeşni 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Lezzetçi Sebzeli Çeşni 5 Kg.jpg",
                 "product-price": "757.50 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -996,7 +996,7 @@
             },
             {
                 "product-name": "Kent Tarhana Çorba 3 Kg",
-                "product-image": "",
+                "product-image": "product-images/Bulyon ve Çeşni/Kent Tarhana Çorba 3 Kg.jpg",
                 "product-price": "499.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1009,7 +1009,7 @@
         "products": [
             {
                 "product-name": "Papri Pul Biber 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Pul Biber 1 Kg.jpg",
                 "product-price": "201.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1017,7 +1017,7 @@
             },
             {
                 "product-name": "Papri Karabiber 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Karabiber 1 Kg.jpg",
                 "product-price": "499.95 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1025,7 +1025,7 @@
             },
             {
                 "product-name": "Papri Akbiber 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Akbiber 1 Kg.png",
                 "product-price": "555.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1033,7 +1033,7 @@
             },
             {
                 "product-name": "Papri Buğday Nişastası 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Buğday Nişastası 1 Kg.jpg",
                 "product-price": "90.39 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1041,7 +1041,7 @@
             },
             {
                 "product-name": "Papri Çörek Otu 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Çörek Otu 1 Kg.png",
                 "product-price": "237.35 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1049,7 +1049,7 @@
             },
             {
                 "product-name": "Papri Galete Unu 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Galete Unu 1 Kg.jpg",
                 "product-price": "39.90 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1057,7 +1057,7 @@
             },
             {
                 "product-name": "Papri Hindistan Cevizi 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Hindistan Cevizi 1 Kg.jpg",
                 "product-price": "277.75 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1065,7 +1065,7 @@
             },
             {
                 "product-name": "Papri İsot 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri İsot 1 Kg.jpg",
                 "product-price": "201.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1073,7 +1073,7 @@
             },
             {
                 "product-name": "Papri Kabartma Tozu 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Kabartma Tozu 1 Kg.jpg",
                 "product-price": "85.85 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1081,7 +1081,7 @@
             },
             {
                 "product-name": "Papri Karanfil Tane 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Karanfil Tane 1 Kg.jpg",
                 "product-price": "858.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1089,7 +1089,7 @@
             },
             {
                 "product-name": "Papri Karbonat 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Karbonat 1 Kg.jpg",
                 "product-price": "71.40 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1097,7 +1097,7 @@
             },
             {
                 "product-name": "Papri Kekik 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Kekik 1 Kg.jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1105,7 +1105,7 @@
             },
             {
                 "product-name": "Papri Kırmızı Toz Biber Tatlı 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Kırmızı Toz Biber Tatlı 1 Kg.jpg",
                 "product-price": "201.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1113,7 +1113,7 @@
             },
             {
                 "product-name": "Papri Kırmızı Toz Biber Acı 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Kırmızı Toz Biber Acı 1 Kg.jpg",
                 "product-price": "201.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1121,7 +1121,7 @@
             },
             {
                 "product-name": "Papri Kimyon 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Kimyon 1 Kg.jpg",
                 "product-price": "353.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1129,7 +1129,7 @@
             },
             {
                 "product-name": "Papri Köri 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Köri 1 Kg.jpg",
                 "product-price": "186.85 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1137,7 +1137,7 @@
             },
             {
                 "product-name": "Papri Kuş Üzümü 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Kuş Üzümü 1 Kg.jpg",
                 "product-price": "600.95 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1145,7 +1145,7 @@
             },
             {
                 "product-name": "Papri Limon Tuzu 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Limon Tuzu 1 Kg.png",
                 "product-price": "179.40 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1153,7 +1153,7 @@
             },
             {
                 "product-name": "Papri Mısır Nişastası 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Mısır Nişastası 1 Kg.jpg",
                 "product-price": "55.55 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1161,7 +1161,7 @@
             },
             {
                 "product-name": "Papri Mısır Unu 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Mısır Unu 1 Kg.jpg",
                 "product-price": "55.55 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1169,7 +1169,7 @@
             },
             {
                 "product-name": "Papri Nane 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Nane 1 Kg.jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1177,7 +1177,7 @@
             },
             {
                 "product-name": "Papri Pudra Şekeri 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Pudra Şekeri 1 Kg.jpg",
                 "product-price": "75.75 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1185,7 +1185,7 @@
             },
             {
                 "product-name": "Papri Sumak 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Sumak 1 Kg.jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1193,7 +1193,7 @@
             },
             {
                 "product-name": "Papri Susam 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Susam 1 Kg.jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1201,7 +1201,7 @@
             },
             {
                 "product-name": "Papri Şekerli Vanilin 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Şekerli Vanilin 1 Kg.jpg",
                 "product-price": "100.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1209,7 +1209,7 @@
             },
             {
                 "product-name": "Papri Tarçın Toz 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Tarçın Toz 1 Kg.jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1217,7 +1217,7 @@
             },
             {
                 "product-name": "Papri Yenibahar 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Yenibahar 1 Kg.jpg",
                 "product-price": "555.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1225,7 +1225,7 @@
             },
             {
                 "product-name": "Papri Zencefil Toz 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Zencefil Toz 1 Kg.jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1233,7 +1233,7 @@
             },
             {
                 "product-name": "Papri Zerdeçal Toz 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Papri Zerdeçal Toz 1 Kg.jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1241,7 +1241,7 @@
             },
             {
                 "product-name": "Lezzetçi Rajah Fajita Baharatı 600 Gr",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Lezzetçi Rajah Fajita Baharatı 600 Gr.jpg",
                 "product-price": "196.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1249,7 +1249,7 @@
             },
             {
                 "product-name": "Lezzetçi Rajah Kajun Baharatı 600 Gr",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Lezzetçi Rajah Kajun Baharatı 600 Gr.jpg",
                 "product-price": "196.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1257,7 +1257,7 @@
             },
             {
                 "product-name": "Ülker Kakao 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Ülker Kakao 1 Kg.jpg",
                 "product-price": "732.25 ₺",
                 "product-unit": "KG",
                 "discount": false,
@@ -1265,7 +1265,7 @@
             },
             {
                 "product-name": "Süleyman Çavuşoğlu Yağlı Pul Biber 10 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Süleyman Çavuşoğlu Yağlı Pul Biber 10 Kg - Kopya.jpg",
                 "product-price": "1509.95 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -1273,7 +1273,7 @@
             },
             {
                 "product-name": "Süleyman Çavuşoğlu Yağlı İsot 10 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Süleyman Çavuşoğlu Yağlı İsot 10 Kg.jpg",
                 "product-price": "1509.95 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -1281,7 +1281,7 @@
             },
             {
                 "product-name": "Süleyman Çavuşoğlu Yağsız İpek Pul Biber 10 Kg",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Süleyman Çavuşoğlu Yağsız İpek Pul Biber 10 Kg.jpg",
                 "product-price": "2014.95 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
@@ -1289,7 +1289,7 @@
             },
             {
                 "product-name": "Horeca Tek Kullanımlık Pul Biber 1000 Ad",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Horeca Tek Kullanımlık Pul Biber 1000 Ad.jpg",
                 "product-price": "302.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1297,7 +1297,7 @@
             },
             {
                 "product-name": "Horeca Tek Kullanımlık Karabiber 1000 Ad",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Horeca Tek Kullanımlık Karabiber 1000 Ad.jpg",
                 "product-price": "429.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1305,7 +1305,7 @@
             },
             {
                 "product-name": "Horeca Tek Kullanımlık Nane 1000 Ad",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Horeca Tek Kullanımlık Nane 1000 Ad.png",
                 "product-price": "302.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1313,7 +1313,7 @@
             },
             {
                 "product-name": "Horeca Tek Kullanımlık Kekik 1000 Ad",
-                "product-image": "",
+                "product-image": "product-images/Baharat/Horeca Tek Kullanımlık Kekik 1000 Ad.png",
                 "product-price": "302.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1326,7 +1326,7 @@
         "products": [
             {
                 "product-name": "Tukaş Mısır 2700 Gr",
-                "product-image": "",
+                "product-image": "product-images/Konserve/Tukaş Mısır 2700 Gr.jpg",
                 "product-price": "227.25 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1334,7 +1334,7 @@
             },
             {
                 "product-name": "Dal Konserve Mantar Dilimli 2650 Gr",
-                "product-image": "",
+                "product-image": "product-images/Konserve/Dal Konserve Mantar Dilimli 2650 Gr.jpg",
                 "product-price": "252.00 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1342,7 +1342,7 @@
             },
             {
                 "product-name": "Tat Doğranmış Domates 4050 Gr",
-                "product-image": "",
+                "product-image": "product-images/Konserve/Tat Doğranmış Domates 4050 Gr.jpg",
                 "product-price": "217.15 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1350,7 +1350,7 @@
             },
             {
                 "product-name": "Demko Doğranmış Domates 4050 Gr",
-                "product-image": "",
+                "product-image": "product-images/Konserve/Demko Doğranmış Domates 4050 Gr.png",
                 "product-price": "237.35 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1358,7 +1358,7 @@
             },
             {
                 "product-name": "Dardanel Ton 80 Gr (24 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Konserve/Dardanel Ton 80 Gr (24 Ad).jpg",
                 "product-price": "1060.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1366,7 +1366,7 @@
             },
             {
                 "product-name": "Dardanel Ton 160 Gr (24 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Konserve/Dardanel Ton 160 Gr (24 Ad).jpeg",
                 "product-price": "1767.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1374,7 +1374,7 @@
             },
             {
                 "product-name": "Tamek Konserve Bezelye 4200 Gr",
-                "product-image": "",
+                "product-image": "product-images/Konserve/Tamek Konserve Bezelye 4200 Gr.jpg",
                 "product-price": "217.15 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1387,7 +1387,7 @@
         "products": [
             {
                 "product-name": "Aysan Biberiye Tombul Biberiye 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Turşu/Aysan Biberiye Tombul Biberiye 5 Kg.jpg",
                 "product-price": "757.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1395,7 +1395,7 @@
             },
             {
                 "product-name": "Aysan Türlü Turşu 10 Kg",
-                "product-image": "",
+                "product-image": "product-images/Turşu/Aysan Türlü Turşu 10 Kg.jpg",
                 "product-price": "600.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1403,7 +1403,7 @@
             },
             {
                 "product-name": "Aysan Salatalık Turşu 10 Kg",
-                "product-image": "",
+                "product-image": "product-images/Turşu/Aysan Salatalık Turşu 10 Kg.png",
                 "product-price": "600.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1411,7 +1411,7 @@
             },
             {
                 "product-name": "Aysan Yakan Biber Turşusu 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Turşu/Aysan Yakan Biber Turşusu 5 Kg.jpg",
                 "product-price": "757.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1424,7 +1424,7 @@
         "products": [
             {
                 "product-name": "Kuzucu Beyaz Peynir 17 Kg Teneke",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Kuzucu Beyaz Peynir 17 Kg Teneke.jpg",
                 "product-price": "3383.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1432,7 +1432,7 @@
             },
             {
                 "product-name": "Kuzucu Beyaz Peynir 5 Kg Teneke",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Kuzucu Beyaz Peynir 5 Kg Teneke.jpg",
                 "product-price": "1136.25 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1440,7 +1440,7 @@
             },
             {
                 "product-name": "Zengin Klasik Tam Yağlı Beyaz Peynir 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Zengin Klasik Tam Yağlı Beyaz Peynir 5 Kg.jpg",
                 "product-price": "1509.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1448,7 +1448,7 @@
             },
             {
                 "product-name": "Zengin Klasik Tam Yağlı Beyaz Peynir 18 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Zengin Klasik Tam Yağlı Beyaz Peynir 18 Kg.jpg",
                 "product-price": "5044.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1456,7 +1456,7 @@
             },
             {
                 "product-name": "Aynes Klasik Tam Yağlı Beyaz Peynir Vakumlu 10 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Aynes Klasik Tam Yağlı Beyaz Peynir Vakumlu 10 Kg.jpg",
                 "product-price": "3731.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -1464,7 +1464,7 @@
             },
             {
                 "product-name": "İkram Siyah Zeytin 321-380 Kalibre 10 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/İkram Siyah Zeytin 321-380 Kalibre 10 Kg.png",
                 "product-price": "2070.50 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -1472,7 +1472,7 @@
             },
             {
                 "product-name": "İkram Yeşil Zeytin Çizik 291-350 Kalibre 10 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/İkram Yeşil Zeytin Çizik 291-350 Kalibre 10 Kg.png",
                 "product-price": "2525.00 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1480,7 +1480,7 @@
             },
             {
                 "product-name": "İkram Dilimli Siyah Zeytin 8 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/İkram Dilimli Siyah Zeytin 8 Kg.jpg",
                 "product-price": "1363.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1488,7 +1488,7 @@
             },
             {
                 "product-name": "Çobanoğlu Kaşar Peynir 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Çobanoğlu Kaşar Peynir 1 Kg.jpg",
                 "product-price": "338.35 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1496,7 +1496,7 @@
             },
             {
                 "product-name": "Çobanyıldızı Tost Peyniri 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Çobanyıldızı Tost Peyniri 1 Kg.jpg",
                 "product-price": "287.85 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1504,7 +1504,7 @@
             },
             {
                 "product-name": "Çobanoğlu Tost Peyniri Y.Yağlı Dilimli 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Çobanoğlu Tost Peyniri Y.Yağlı Dilimli 1 Kg.jpg",
                 "product-price": "272.70 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1512,7 +1512,7 @@
             },
             {
                 "product-name": "Çobanoğlu Rende Kaşar 2 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Çobanoğlu Rende Kaşar 2 Kg.jpg",
                 "product-price": "641.35 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1520,7 +1520,7 @@
             },
             {
                 "product-name": "Çobanoğlu Tereyağ 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Çobanoğlu Tereyağ 1 Kg.jpg",
                 "product-price": "398.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1528,7 +1528,7 @@
             },
             {
                 "product-name": "Çobanoğlu Chedar Dilimli 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Çobanoğlu Chedar Dilimli 1 Kg.png",
                 "product-price": "338.35 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1536,7 +1536,7 @@
             },
             {
                 "product-name": "Pınar Tereyağ 1 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Pınar Tereyağ 1 Kg.jpg",
                 "product-price": "590.85 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -1544,7 +1544,7 @@
             },
             {
                 "product-name": "Yörsan Yoğurt 10 Kg Yarım Yağlı",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Yörsan Yoğurt 10 Kg Yarım Yağlı.png",
                 "product-price": "429.25 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1552,7 +1552,7 @@
             },
             {
                 "product-name": "Seyidoğlu Bal 15 Gr (100 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Bal 15 Gr (100 Ad).jpg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1560,7 +1560,7 @@
             },
             {
                 "product-name": "Seyidoğlu Vişne Reçeli 15 Gr (100 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Vişne Reçeli 15 Gr (100 Ad).jpg",
                 "product-price": "151.00 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1568,7 +1568,7 @@
             },
             {
                 "product-name": "Seyidoğlu Çilek Reçeli 15 Gr (100 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Çilek Reçeli 15 Gr (100 Ad).jpg",
                 "product-price": "151.00 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1576,7 +1576,7 @@
             },
             {
                 "product-name": "Seyidoğlu Kayısı Reçeli 15 Gr (100 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Kayısı Reçeli 15 Gr (100 Ad).jpg",
                 "product-price": "151.00 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1584,7 +1584,7 @@
             },
             {
                 "product-name": "Seyidoğlu Fındık Kreması 15 Gram (100 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Fındık Kreması 15 Gram (100 Ad).jpg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1592,7 +1592,7 @@
             },
             {
                 "product-name": "Seyidoğlu Tahin-Pekmez Karışım 15 Gram (100 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Tahin-Pekmez Karışım 15 Gram (100 Ad).jpg",
                 "product-price": "348.45 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1600,7 +1600,7 @@
             },
             {
                 "product-name": "Seyidoğlu Helva 80 Gram (54 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Helva 80 Gram (54 Ad).jpg",
                 "product-price": "1161.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1608,7 +1608,7 @@
             },
             {
                 "product-name": "Seyidoğlu Helva 40 Gram (96 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Helva 40 Gram (96 Ad).jpg",
                 "product-price": "984.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1616,7 +1616,7 @@
             },
             {
                 "product-name": "Seyidoğlu Helva 20 Gram (96 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Helva 20 Gram (96 Ad).jpg",
                 "product-price": "499.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1624,7 +1624,7 @@
             },
             {
                 "product-name": "Seyidoğlu Helva 500 Gr (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Helva 500 Gr (12 Ad).jpg",
                 "product-price": "1186.75 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1632,7 +1632,7 @@
             },
             {
                 "product-name": "Seyidoğlu Tahin 4 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Tahin 4 Kg.jpg",
                 "product-price": "883.75 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1640,7 +1640,7 @@
             },
             {
                 "product-name": "Seyidoğlu Pekmez 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Pekmez 5 Kg.jpg",
                 "product-price": "883.75 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1648,7 +1648,7 @@
             },
             {
                 "product-name": "Seyidoğlu Bal 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Bal 5 Kg.jpg",
                 "product-price": "1262.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1656,7 +1656,7 @@
             },
             {
                 "product-name": "Seyidoğlu Çokokrem Fındık Kreması 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Çokokrem Fındık Kreması 5 Kg.jpg",
                 "product-price": "656.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1664,7 +1664,7 @@
             },
             {
                 "product-name": "Seyidoğlu Vişne Reçeli 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Vişne Reçeli 5 Kg.jpg",
                 "product-price": "454.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1672,7 +1672,7 @@
             },
             {
                 "product-name": "Seyidoğlu Kayısı Reçeli 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Kayısı Reçeli 5 Kg.jpg",
                 "product-price": "454.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1680,7 +1680,7 @@
             },
             {
                 "product-name": "Seyidoğlu Çilek Reçeli 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Seyidoğlu Çilek Reçeli 5 Kg.jpg",
                 "product-price": "454.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1688,7 +1688,7 @@
             },
             {
                 "product-name": "Ayvansaray Tahin 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Ayvansaray Tahin 5 Kg.jpeg",
                 "product-price": "858.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1696,7 +1696,7 @@
             },
             {
                 "product-name": "Ayvansaray Üzüm Pekmezi 5 Kg",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Ayvansaray Üzüm Pekmezi 5 Kg.png",
                 "product-price": "600.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1704,7 +1704,7 @@
             },
             {
                 "product-name": "Pınar Tereyağ 10 Gr (192 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Pınar Tereyağ 10 Gr (192 Ad).jpg",
                 "product-price": "1610.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1712,7 +1712,7 @@
             },
             {
                 "product-name": "Danet Kavurma 100 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Kavurma 100 Gr.jpg",
                 "product-price": "166.65 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1720,7 +1720,7 @@
             },
             {
                 "product-name": "Danet Dana Baton Sucuk 300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Dana Baton Sucuk 300 Gr.jpg",
                 "product-price": "252.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1728,7 +1728,7 @@
             },
             {
                 "product-name": "Danet Dana Dilim Sucuk 250 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Dana Dilim Sucuk 250 Gr.jpg",
                 "product-price": "227.25 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1736,7 +1736,7 @@
             },
             {
                 "product-name": "Danet Piliç Dilim Sucuk 250 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Piliç Dilim Sucuk 250 Gr.jpg",
                 "product-price": "90.90 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1744,7 +1744,7 @@
             },
             {
                 "product-name": "Danet Dana Macar Salam 1250 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Dana Macar Salam 1250 Gr.jpg",
                 "product-price": "1004.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1752,7 +1752,7 @@
             },
             {
                 "product-name": "Danet Dana Macar Salam Dilimli 300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Dana Macar Salam Dilimli 300 GrDanet Dana Macar Salam Dilimli 300 Gr.jpg",
                 "product-price": "217.15 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1760,7 +1760,7 @@
             },
             {
                 "product-name": "Danet Dana Dilimli Jambon 300 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Dana Dilimli Jambon 300 Gr.jpg",
                 "product-price": "277.75 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1768,7 +1768,7 @@
             },
             {
                 "product-name": "Danet Dana Jambon 2000 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Dana Jambon 2000 Gr.jpg",
                 "product-price": "1767.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1776,7 +1776,7 @@
             },
             {
                 "product-name": "Danet Hindi Etli Jambon 2000 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Hindi Etli Jambon 2000 Gr.jpg",
                 "product-price": "959.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1784,7 +1784,7 @@
             },
             {
                 "product-name": "Danet Piliç Jambon 2000 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Piliç Jambon 2000 Gr.jpg",
                 "product-price": "600.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1792,7 +1792,7 @@
             },
             {
                 "product-name": "Danet Hindi Füme Dilim 400 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Hindi Füme Dilim 400 Gr.jpg",
                 "product-price": "151.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1800,7 +1800,7 @@
             },
             {
                 "product-name": "Danet Dana Kokteyl Sosis 250 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Dana Kokteyl Sosis 250 Gr.jpg",
                 "product-price": "176.75 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1808,7 +1808,7 @@
             },
             {
                 "product-name": "Danet Dana Uzun Sosis 250 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Dana Uzun Sosis 250 Gr.jpg",
                 "product-price": "176.75 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1816,7 +1816,7 @@
             },
             {
                 "product-name": "Danet Piliç Kokteyl Sosis 250 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Piliç Kokteyl Sosis 250 Gr.jpg",
                 "product-price": "85.85 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1824,7 +1824,7 @@
             },
             {
                 "product-name": "Danet Piliç Uzun Sosis 250 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Piliç Uzun Sosis 250 Gr.jpg",
                 "product-price": "85.85 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1832,7 +1832,7 @@
             },
             {
                 "product-name": "Danet Piliç Pizza Dilim Sosis 500 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Piliç Pizza Dilim Sosis 500 Gr.jpg",
                 "product-price": "151.00 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1840,7 +1840,7 @@
             },
             {
                 "product-name": "Danet Çemensiz Pastırma Dilimli 250 Gr",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Danet Çemensiz Pastırma Dilimli 250 Gr.jpg",
                 "product-price": "600.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1848,7 +1848,7 @@
             },
             {
                 "product-name": "İçim Süt Tam Yağlı 1 Lt  (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/İçim Süt Tam Yağlı 1 Lt  (12 Ad).jpg",
                 "product-price": "530.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1856,7 +1856,7 @@
             },
             {
                 "product-name": "Aynes Süt Tam Yağlı 1 Lt  (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Aynes Süt Tam Yağlı 1 Lt  (12 Ad).jpeg",
                 "product-price": "555.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -1864,7 +1864,7 @@
             },
             {
                 "product-name": "Yörsan Yarım Yağlı Süt 1 Lt (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Kahvaltılık & Şarküteri/Yörsan Yarım Yağlı Süt 1 Lt (12 Ad).png",
                 "product-price": "398.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1877,7 +1877,7 @@
         "products": [
             {
                 "product-name": "Rama Krema Sıcak Uygulama %15 Yağlı 1 Lt (8 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Krema/Rama Krema Sıcak Uygulama _15 Yağlı 1 Lt (8 Ad).jpg",
                 "product-price": "1262.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1885,7 +1885,7 @@
             },
             {
                 "product-name": "Rama Krema Çok Amaçlı Kullanım %31 Yağlı 1 Lt (8 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Krema/Rama Krema Çok Amaçlı Kullanım _31 Yağlı 1 Lt (8 Ad).jpg",
                 "product-price": "1666.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1893,7 +1893,7 @@
             },
             {
                 "product-name": "Tikveşli Krema 1 Lt (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Krema/Tikveşli Krema 1 Lt (12 Ad).jpg",
                 "product-price": "3484.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1901,7 +1901,7 @@
             },
             {
                 "product-name": "Hopla Şekersiz Krema 1 Lt (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Krema/Hopla Şekersiz Krema 1 Lt (12 Ad).jpg",
                 "product-price": "2216.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -1909,7 +1909,7 @@
             },
             {
                 "product-name": "Hopla Sprey Krema 250 Ml (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Krema/Hopla Sprey Krema 250 Ml (12 Ad).jpg",
                 "product-price": "1767.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1922,7 +1922,7 @@
         "products": [
             {
                 "product-name": "Tat Tatlı Ketçap EDT 630 Gr (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tat Tatlı Ketçap EDT 630 Gr (12 Ad).jpg",
                 "product-price": "631.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1930,7 +1930,7 @@
             },
             {
                 "product-name": "Tat Mayonez EDT 575 Gr (12 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tat Mayonez EDT 575 Gr (12 Ad).jpg",
                 "product-price": "701.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1938,7 +1938,7 @@
             },
             {
                 "product-name": "Tat Ketçap Kova 9 Kg",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tat Ketçap Kova 9 Kg .jpg",
                 "product-price": "446.93 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -1946,7 +1946,7 @@
             },
             {
                 "product-name": "Tat Mayonez Kova 8 Kg",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tat Mayonez Kova 8 Kg.jpg",
                 "product-price": "477.23 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -1954,7 +1954,7 @@
             },
             {
                 "product-name": "Tat Ketçap 9 Gr (500 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tat Ketçap 9 Gr (500 Ad) .jpg",
                 "product-price": "328.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1962,7 +1962,7 @@
             },
             {
                 "product-name": "Tat Mayonez 8 Gr (500 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tat Mayonez 8 Gr (500 Ad).jpg",
                 "product-price": "328.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1970,7 +1970,7 @@
             },
             {
                 "product-name": "Tukaş Ketçap Kova 9 Kg",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tukaş Ketçap Kova 9 Kg.jpg",
                 "product-price": "378.75 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -1978,7 +1978,7 @@
             },
             {
                 "product-name": "Tukaş Mayonez Kova 8 Kg",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tukaş Mayonez Kova 8 Kg.jpg",
                 "product-price": "378.75 ₺",
                 "product-unit": "ADET",
                 "discount": true,
@@ -1986,7 +1986,7 @@
             },
             {
                 "product-name": "Tukaş Ketçap 9 Gr (500 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tukaş Ketçap 9 Gr (500 Ad).jpg",
                 "product-price": "297.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1994,7 +1994,7 @@
             },
             {
                 "product-name": "Tukaş Mayonez 9 Gr (500 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Ketçap & Mayonez/Tukaş Mayonez 9 Gr (500 Ad).jpg",
                 "product-price": "297.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -2007,7 +2007,7 @@
         "products": [
             {
                 "product-name": "Tat Vakumlu İrmik No:3 25 Kg",
-                "product-image": "",
+                "product-image": "product-images/Tatlı Ürünleri/Tat Vakumlu İrmik No3 25 Kg.jpg",
                 "product-price": "903.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -2015,7 +2015,7 @@
             },
             {
                 "product-name": "Ankara İrmik 500 Gram (20 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tatlı Ürünleri/Ankara İrmik 500 Gram (20 Ad).jpg",
                 "product-price": "666.60 ₺",
                 "product-unit": "KOLİ",
                 "discount": true,
@@ -2023,7 +2023,7 @@
             },
             {
                 "product-name": "Filiz İrmik 500 Gram (18 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tatlı Ürünleri/Filiz İrmik 500 Gram (18 Ad).jpg",
                 "product-price": "631.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -2031,7 +2031,7 @@
             },
             {
                 "product-name": "Nevzat Revani Büyük 1000 Gr.",
-                "product-image": "",
+                "product-image": "product-images/Tatlı Ürünleri/Nevzat Revani Büyük 1000 Gr..jpg",
                 "product-price": "201.50 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -2039,7 +2039,7 @@
             },
             {
                 "product-name": "Nevzat Lüks Kemalpaşa 150 Gr (25 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tatlı Ürünleri/Nevzat Lüks Kemalpaşa 150 Gr (25 Ad).jpg",
                 "product-price": "2272.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -2047,7 +2047,7 @@
             },
             {
                 "product-name": "Nevzat Ekstra Kemalpaşa 150 Gr (25 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tatlı Ürünleri/Nevzat Ekstra Kemalpaşa 150 Gr (25 Ad).jpg",
                 "product-price": "1868.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -2055,7 +2055,7 @@
             },
             {
                 "product-name": "Nevzat Peynir Tatlısı 160 Gr (25 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tatlı Ürünleri/Nevzat Peynir Tatlısı 160 Gr (25 Ad).jpg",
                 "product-price": "2272.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -2063,7 +2063,7 @@
             },
             {
                 "product-name": "Nevzat Şekerpare 250 Gr (30 Ad)",
-                "product-image": "",
+                "product-image": "product-images/Tatlı Ürünleri/Nevzat Şekerpare 250 Gr (30 Ad).jpg",
                 "product-price": "1206.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
