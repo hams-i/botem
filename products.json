@@ -162,7 +162,7 @@
             {
                 "product-name": "Biryağ Ayçiçek Yağı 18 Lt",
                 "product-image": "product-images/yag-urunleri/biryag-aycicek-yagi-18-lt.jpg",
-                "product-price": "1590.75 ₺",
+                "product-price": "1666.50 ₺",
                 "product-unit": "TNK",
                 "discount": true,
                 "discount-rate": "5"
@@ -170,7 +170,7 @@
             {
                 "product-name": "Yudum Ayçiçek Yağı 18 Lt",
                 "product-image": "product-images/yag-urunleri/yudum-aycicek-yagi-18-lt.jpg",
-                "product-price": "1565.50 ₺",
+                "product-price": "1641.25 ₺",
                 "product-unit": "TNK",
                 "discount": false,
                 "discount-rate": "0"
@@ -178,7 +178,7 @@
             {
                 "product-name": "Frita Kızartmalık Yağı 18 Lt",
                 "product-image": "product-images/yag-urunleri/frita-kizartmalik-yagi-18-lt.png",
-                "product-price": "1787.70 ₺",
+                "product-price": "1812.95 ₺",
                 "product-unit": "TNK",
                 "discount": true,
                 "discount-rate": "5"
@@ -194,7 +194,7 @@
             {
                 "product-name": "Birma Kızartmalık Yağı 18 Lt",
                 "product-image": "product-images/yag-urunleri/birma-kizartmalik-yagi-18-lt.jpg",
-                "product-price": "1439.25 ₺",
+                "product-price": "1509.95 ₺",
                 "product-unit": "TNK",
                 "discount": false,
                 "discount-rate": "0"
@@ -202,7 +202,7 @@
             {
                 "product-name": "Birma Margarin 250 Gr (48 Ad)",
                 "product-image": "product-images/yag-urunleri/birma-margarin-250-gr-48-ad.jpg",
-                "product-price": "1004.95 ₺",
+                "product-price": "1060.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
                 "discount-rate": "0"
@@ -217,7 +217,7 @@
             },
             {
                 "product-name": "Yudum Riviera Zeytinyağı 5 Lt",
-                "product-image": "product-images/yag-urunleri/yudum-riviera-zeytinyagi-5-lt.jpeg",
+                "product-image": "product-images/yag-urunleri/yudum-riviera-zeytinyagi-5-lt.webp",
                 "product-price": "1206.95 ₺",
                 "product-unit": "ADET",
                 "discount": false,
@@ -1366,7 +1366,7 @@
             },
             {
                 "product-name": "Dardanel Ton 160 Gr (24 Ad)",
-                "product-image": "product-images/konserve/dardanel-ton-160-gr-24-ad.jpeg",
+                "product-image": "product-images/konserve/dardanel-ton-80-gr-24-ad.jpg",
                 "product-price": "1767.50 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1922,7 +1922,7 @@
         "products": [
             {
                 "product-name": "Tat Tatlı Ketçap EDT 630 Gr (12 Ad)",
-                "product-image": "product-images/ketcap-mayonez/tat-tatli-ketcap-edt-630-gr-12-ad.jpg",
+                "product-image": "product-images/ketcap-mayonez/tat-tatli-ketcap-edt-630-gr-12-ad.webp",
                 "product-price": "631.25 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,
@@ -1930,7 +1930,7 @@
             },
             {
                 "product-name": "Tat Mayonez EDT 575 Gr (12 Ad)",
-                "product-image": "product-images/ketcap-mayonez/tat-mayonez-edt-575-gr-12-ad.jpg",
+                "product-image": "product-images/ketcap-mayonez/tat-mayonez-edt-575-gr-12-ad.webp",
                 "product-price": "701.95 ₺",
                 "product-unit": "KOLİ",
                 "discount": false,

@@ -1117,6 +1117,12 @@ h2 {
     }
 }
 
+@media (max-width: 991px) {
+    .contact-location-section .container{
+        max-width: 95% !important;
+    }
+}
+
 .contact-location-container {
     max-width: 1400px;
     margin: 0 auto;
