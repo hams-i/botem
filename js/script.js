@@ -122,14 +122,22 @@ function loadProducts() {
             discountBadge = `<div class="discount-badge">%${product["discount-rate"]}</div>`;
         }
 
-        // Create product URL (index + 1 for 1-based numbering)
-        const productUrl = `webvafe.com/${index + 1}`;
+        // Create quantity badge HTML
+        let quantityBadge = '';
+        const productName = product["product-name"];
+        const quantityMatch = productName.match(/\((\d+)\s*Ad\)/i);
+        if (quantityMatch) {
+            const quantity = parseInt(quantityMatch[1]);
+            // Only show quantity badge if the number is 192 or less
+            if (quantity <= 192) {
+                quantityBadge = `<div class="quantity-badge">X${quantity}</div>`;
+            }
+        }
 
         productCard.innerHTML = `
                     <div class="product-image-container">
-                        <a href="${productUrl}" class="product-image-link">
-                            <img src="${product["product-image"]}" alt="${product["product-name"]}" class="product-image">
-                        </a>
+                        <img src="${product["product-image"]}" alt="${product["product-name"]}" class="product-image">
+                        ${quantityBadge}
                         ${discountBadge}
                     </div>
                     <div class="product-info">

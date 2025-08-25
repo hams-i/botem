@@ -314,14 +314,55 @@
             position: absolute;
             top: 20px;
             right: 20px;
-            background: var(--text-primary);
+            background: #ea2437;
             color: var(--text-white);
-            border: 1px solid var(--text-primary);
+            border: 1px solid #ea2437;
             padding: 8px 16px;
             font-size: 12px;
-            font-weight: 400;
+            font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 1px;
+        }
+        
+        .quantity-badge {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            background: #000000;
+            color: #ffffff;
+            border: 1px solid #000000;
+            padding: 8px 12px;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            z-index: 10;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .discount-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #e74c3c;
+            color: #ffffff;
+            border: 1px solid #e74c3c;
+            padding: 8px 12px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            z-index: 10;
         }
         
         .product-content {
@@ -2349,6 +2390,18 @@
                         const discountedNum = hasDiscount ? (basePriceNum * (1 - (discountRateNum / 100))) : basePriceNum;
                         const discountedStr = formatPrice(`${discountedNum.toFixed(2)} ₺`);
                         const badge = hasDiscount ? `<div class="product-badge">İndirim %${discountRateRaw}</div>` : '';
+                        
+                        // Create quantity badge
+                        let quantityBadge = '';
+                        const productName = product['product-name'];
+                        const quantityMatch = productName.match(/\((\d+)\s*Ad\)/i);
+                        if (quantityMatch) {
+                            const quantity = parseInt(quantityMatch[1]);
+                            // Only show quantity badge if the number is 192 or less
+                            if (quantity <= 192) {
+                                quantityBadge = `<div class="quantity-badge">X${quantity}</div>`;
+                            }
+                        }
                         const priceHtml = hasDiscount
                             ? `<span class="original-price">${basePriceStr}</span><span class="discount-price">${discountedStr}</span>`
                             : `<span>${basePriceStr}</span>`;
@@ -2356,6 +2409,7 @@
                         return `
                         <div class="product-card">
                             <div class="product-image-container">
+                                ${quantityBadge}
                                 ${badge}
                                 ${product['product-image'] ? `<img src="${product['product-image']}" alt="${product['product-name']}" class="product-image">` : '<div class="product-image-placeholder"></div>'}
                             </div>
