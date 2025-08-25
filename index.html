@@ -252,15 +252,16 @@
         
         .product-card {
             background: var(--primary-bg);
-            border: 1px solid var(--border-light);
+            border: 1px solid #000;
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
         }
         
         .product-card:hover {
-            border-color: var(--text-primary);
+            border-color: #DDA15E;
             transform: translateY(-4px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         }
 
         /* Disable hover effects on touch devices */
@@ -269,6 +270,7 @@
             .grid-item:hover,
             .service-item:hover,
             .review-card:hover,
+            .product-card:hover,
             .value-card:hover{
                 transform: none !important;
             }
@@ -441,7 +443,7 @@
             border-radius: 0;
             cursor: pointer;
             height: 48px;
-            width: 50%;
+            width: 100%;
         }
         
         .btn-cart:hover {
@@ -612,12 +614,6 @@
                 gap: 8px;
                 justify-content: center;
                 align-items: center;
-            }
-            
-            .btn-whatsapp, .btn-cart {
-                width: 50%;
-                padding: 10px 12px;
-                font-size: 12px;
             }
             
             .product-content {
@@ -1361,7 +1357,7 @@
         .cart-total {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-end;
             margin-bottom: 16px;
             font-weight: 600;
         }
@@ -1374,6 +1370,10 @@
         .total-amount {
             color: #000;
             font-size: 18px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 1px;
         }
 
         .cart-checkout-buttons {
@@ -1441,7 +1441,7 @@
             display: none;
             align-items: center;
             gap: 8px;
-            background: #f8f8f8;
+            border: 1px solid #000;
             border-radius: 4px;
             padding: 8px 12px;
             width: 100%;
@@ -1683,7 +1683,7 @@
             <div class="dashboard_section campaign_dashboard_grid">
 
 
-                <!-- 1. Fabrikalar & İş Hanları (100%) -->
+                <!-- 1. Fabrikalar & Catering Firmaları (100%) -->
                 <div class="grid-item span-12 bg-blue">
                     <div class="campaign-content fullwidth">
                         <div class="campaign-header-full">
@@ -1698,7 +1698,7 @@
                                 </div>
                                 <div class="feature-item">
                                     <i class="fas fa-building"></i>
-                                    <span>İş Hanları</span>
+                                    <span>Catering Firmaları</span>
                                 </div>
                                 <div class="feature-item">
                                     <i class="fas fa-truck"></i>
@@ -2366,11 +2366,6 @@
                                     <span class="product-unit">${product['product-unit'] || ''}</span>
                                 </div>
                                 <div class="product-actions">
-                                    <a href="https://wa.me/905323663401?text=Merhaba, ${encodeURIComponent(product['product-name'])} ürünü hakkında bilgi almak istiyorum. Fiyat: ${waPriceForMessage} ${product['product-unit'] || ''}" 
-                                       class="btn-whatsapp" target="_blank">
-                                        <i class="fab fa-whatsapp" style="font-size: 16px;"></i>
-                                        WhatsApp
-                                    </a>
                                     <button class="btn-cart" onclick="addToCart('${product['product-name']}', '${waPriceForMessage}', '${product['product-unit'] || ''}', this)" data-product-id="${product['product-name']}">
                                         <span class="material-icons" style="font-size: 16px;">shopping_cart</span>
                                         <span style="margin-left: 4px; font-size: 12px;">Sepete Ekle</span>
@@ -2411,6 +2406,16 @@
             
             const priceNumber = parseFloat(cleanPrice) || 0;
             
+            // Find product image from all categories
+            let productImage = '';
+            for (const category of allCategories) {
+                const product = category.products.find(p => p['product-name'] === productName);
+                if (product && product['product-image']) {
+                    productImage = product['product-image'];
+                    break;
+                }
+            }
+            
             // Create cart item object
             const cartItem = {
                 id: productName,
@@ -2418,6 +2423,7 @@
                 price: priceNumber,
                 priceDisplay: productPrice,
                 unit: productUnit,
+                image: productImage,
                 quantity: 1
             };
             
@@ -2468,7 +2474,7 @@
                     cartItemEl.className = 'cart-item';
                     cartItemEl.innerHTML = `
                         <div class="cart-item-image">
-                            <span class="material-icons">inventory_2</span>
+                            ${item.image ? `<img src="${item.image}" alt="${item.name}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 4px;">` : '<span class="material-icons">inventory_2</span>'}
                         </div>
                         <div class="cart-item-details">
                             <div class="cart-item-name">${item.name}</div>
@@ -2492,7 +2498,7 @@
             // Update totals
             const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
             totalItems.textContent = `${totalQuantity} ürün`;
-            totalAmount.textContent = `${total.toLocaleString('tr-TR')} ₺`;
+            totalAmount.innerHTML = `${total.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₺<span style="color: #666; font-size: 11px; font-weight: 400;">(KDV DAHİL)</span>`;
             
             // Update product quantities in grid
             cart.forEach(item => {
@@ -2645,17 +2651,16 @@
         
         // Generate WhatsApp message
         function generateWhatsAppMessage() {
-            let message = 'Merhaba, aşağıdaki ürünler için kurumsal teklif almak istiyorum:\n\n';
+            let message = 'Merhaba, aşağıdaki ürünler için sipariş oluşturmak istiyorum:\n\n';
             
             cart.forEach((item, index) => {
                 message += `${index + 1}. ${item.name}\n`;
                 message += `   Miktar: ${item.quantity} ${item.unit}\n`;
-                message += `   Birim Fiyat: ${item.priceDisplay}\n\n`;
+                message += `   Birim Fiyat: ${item.priceDisplay} (Fiyatlarımıza KDV Dahildir.)\n\n`;
             });
             
             const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-            message += `Toplam Tutar: ${total.toLocaleString('tr-TR')} ₺\n\n`;
-            message += 'Lütfen bu ürünler için kurumsal teklifinizi WhatsApp üzerinden paylaşır mısınız?';
+            message += `Toplam Tutar: ${total.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₺ (KDV Dahildir)\n\n`;
             
             const whatsappUrl = `https://wa.me/905323663401?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');
@@ -2663,19 +2668,18 @@
         
         // Generate Email message
         function generateEmailMessage() {
-            let subject = 'Kurumsal Teklif Talebi';
+            let subject = 'Sipariş Talebi';
             
-            let body = 'Merhaba, aşağıdaki ürünler için kurumsal teklif almak istiyorum:\n\n';
+            let body = 'Merhaba, aşağıdaki ürünler için sipariş oluşturmak istiyorum:\n\n';
             
             cart.forEach((item, index) => {
                 body += `${index + 1}. ${item.name}\n`;
                 body += `   Miktar: ${item.quantity} ${item.unit}\n`;
-                body += `   Birim Fiyat: ${item.priceDisplay}\n\n`;
+                body += `   Birim Fiyat: ${item.priceDisplay} (Fiyatlarımıza KDV Dahildir.)\n\n`;
             });
             
             const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-            body += `Toplam Tutar: ${total.toLocaleString('tr-TR')} ₺\n\n`;
-            body += 'Lütfen bu ürünler için kurumsal teklifinizi e-posta üzerinden paylaşır mısınız?';
+            body += `Toplam Tutar: ${total.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ₺ (KDV Dahildir)\n\n`;
             
             const mailtoUrl = `mailto:info@botemgida.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
             window.open(mailtoUrl, '_blank');
