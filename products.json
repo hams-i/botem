@@ -8,7 +8,13 @@
                 "product-price": "1818.00 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": true,
-                "discount-rate": "10"
+                "discount-rate": "10",
+                "seo-keywords": "sezerler osmancık pirinç, osmancık pirinç toptan, pirinç 25 kg, bakliyat toptan, İstanbul pirinç tedarik, kurumsal pirinç satış, hızlı teslimat pirinç",
+                "seo-description": "Sezerler Osmancık Pirinç 25 Kg - Toptan satış. İstanbul'da kurumsal müşterilere özel fiyatlarla hızlı teslimat. Botem Gıda güvencesiyle kaliteli pirinç tedariki.",
+                "product-category": "Bakliyat",
+                "brand": "Sezerler",
+                "weight": "25 Kg",
+                "availability": "InStock"
             },
             {
                 "product-name": "Özbirlik Osmancık Pirinç 25 Kg",
@@ -16,7 +22,13 @@
                 "product-price": "1767.50 ₺",
                 "product-unit": "ÇUVAL",
                 "discount": false,
-                "discount-rate": "0"
+                "discount-rate": "0",
+                "seo-keywords": "özbirlik osmancık pirinç, osmancık pirinç toptan, pirinç 25 kg, bakliyat toptan, İstanbul pirinç tedarik, kurumsal pirinç satış, hızlı teslimat pirinç",
+                "seo-description": "Özbirlik Osmancık Pirinç 25 Kg - Toptan satış. İstanbul'da kurumsal müşterilere özel fiyatlarla hızlı teslimat. Botem Gıda güvencesiyle kaliteli pirinç tedariki.",
+                "product-category": "Bakliyat",
+                "brand": "Özbirlik",
+                "weight": "25 Kg",
+                "availability": "InStock"
             },
             {
                 "product-name": "Minel Osmancık Pirinç 25 Kg",
